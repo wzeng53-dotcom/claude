@@ -61,18 +61,19 @@ DROP_COLLISION_BELOW = 8000   # recommended: drop collision when the car's priva
 # ask   : typical dealer ask for a representative in-budget example today (CarGurus cohort averages, Sep-26)
 # winter: net cost of a used winter-tire set (FWD 350, RWD 450, AWD/4WD 0 = optional)
 MODELS = {
-    'es350':     dict(name='Lexus ES 350 (2010-2012, ~120-140k mi)', ask=11800, ins=1720, mpg=22, fuel='regular', maint=850,  chg=-0.05, per_mi=0.06, dealer_ratio=0.70, retail_premium=1.15, winter=350, hybrid=False),
+    'es350':     dict(name='Lexus ES 350 (2011-2012, ~120-140k mi; 2010 needs premium)', ask=11800, ins=1720, mpg=22, fuel='regular', maint=850,  chg=-0.05, per_mi=0.06, dealer_ratio=0.70, retail_premium=1.15, winter=350, hybrid=False),
     'es350g6':   dict(name='Lexus ES 350 (2013-2014, ~130-160k mi)', ask=13300, ins=1720, mpg=24, fuel='regular', maint=800,  chg=-0.04, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=350, hybrid=False),
     'es300h':    dict(name='Lexus ES 300h (2013, ~110k mi; rarely <$13.5k)', ask=15400, ins=1720, mpg=40, fuel='regular', maint=900,  chg=-0.05, per_mi=0.07, dealer_ratio=0.66, retail_premium=1.15, winter=350, hybrid=True),
-    'rx350':     dict(name='Lexus RX 350 AWD (2011-2012, ~130-145k mi)', ask=12500, ins=1620, mpg=20, fuel='regular', maint=1050, chg=-0.06, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=0,   hybrid=False),
+    'rx350':     dict(name='Lexus RX 350 AWD (2012-2013, ~130-145k mi)', ask=12500, ins=1620, mpg=20, fuel='regular', maint=1050, chg=-0.06, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=0,   hybrid=False),
+    'rx350_2011':dict(name='Lexus RX 350 AWD (2010-2011, premium fuel)', ask=12000, ins=1620, mpg=20, fuel='premium', maint=1050, chg=-0.06, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=0,   hybrid=False),
     'is250awd':  dict(name='Lexus IS 250 AWD (2008-2011)', ask=9500,  ins=1790, mpg=22, fuel='premium', maint=1000, chg=-0.08, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=0,   hybrid=False),
     'gx470':     dict(name='Lexus GX 470 (2005-2009, 180k+ mi)', ask=13000, ins=1560, mpg=15, fuel='premium', maint=1250, chg=-0.03, per_mi=0.04, dealer_ratio=0.80, retail_premium=1.13, winter=0,   hybrid=False),
     'ct200h':    dict(name='Lexus CT 200h (2013-2014, ~120k mi)', ask=12000, ins=1700, mpg=42, fuel='regular', maint=800,  chg=-0.05, per_mi=0.07, dealer_ratio=0.70, retail_premium=1.15, winter=350, hybrid=True),
     'camry':     dict(name='Toyota Camry 2.5 (2013-2014, ~120k mi)', ask=10900, ins=1640, mpg=28, fuel='regular', maint=650,  chg=-0.05, per_mi=0.06, dealer_ratio=0.74, retail_premium=1.15, winter=350, hybrid=False),
-    'corolla':   dict(name='Toyota Corolla (2014-2016, ~110k mi)', ask=11800, ins=1650, mpg=31, fuel='regular', maint=575,  chg=-0.03, per_mi=0.06, dealer_ratio=0.75, retail_premium=1.15, winter=350, hybrid=False),
+    'corolla':   dict(name='Toyota Corolla LE (2014-2016, ~110k mi)', ask=11800, ins=1650, mpg=32, fuel='regular', maint=575,  chg=-0.03, per_mi=0.06, dealer_ratio=0.75, retail_premium=1.15, winter=350, hybrid=False),
     'prius':     dict(name='Toyota Prius (2012-2014, ~130k mi)', ask=9500,  ins=1700, mpg=50, fuel='regular', maint=700,  chg=-0.04, per_mi=0.07, dealer_ratio=0.70, retail_premium=1.15, winter=350, hybrid=True),
     'avalon':    dict(name='Toyota Avalon (2013-2014)', ask=11500, ins=1680, mpg=25, fuel='regular', maint=750,  chg=-0.06, per_mi=0.06, dealer_ratio=0.70, retail_premium=1.15, winter=350, hybrid=False),
-    'rav4awd':   dict(name='Toyota RAV4 AWD (2012-2014, ~140k mi)', ask=11000, ins=1430, mpg=24, fuel='regular', maint=650,  chg=-0.05, per_mi=0.06, dealer_ratio=0.75, retail_premium=1.15, winter=0,   hybrid=False),
+    'rav4awd':   dict(name='Toyota RAV4 AWD (2012-2014, ~140k mi)', ask=11000, ins=1430, mpg=25, fuel='regular', maint=650,  chg=-0.05, per_mi=0.06, dealer_ratio=0.75, retail_premium=1.15, winter=0,   hybrid=False),
     'highlander':dict(name='Toyota Highlander V6 AWD (2010-2012)', ask=10900, ins=1470, mpg=19, fuel='regular', maint=800,  chg=-0.06, per_mi=0.06, dealer_ratio=0.75, retail_premium=1.15, winter=0,   hybrid=False),
     'venza':     dict(name='Toyota Venza (2011-2013)', ask=10500, ins=1550, mpg=22, fuel='regular', maint=750,  chg=-0.06, per_mi=0.06, dealer_ratio=0.72, retail_premium=1.15, winter=0,   hybrid=False),
     'lr4':       dict(name='Land Rover LR4 (2011-2013)', ask=11000, ins=1720, mpg=14, fuel='premium', maint=3000, chg=-0.12, per_mi=0.08, dealer_ratio=0.58, retail_premium=1.22, winter=0,   hybrid=False),

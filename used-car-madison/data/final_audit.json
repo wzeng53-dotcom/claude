@@ -1,0 +1,246 @@
+[
+ {
+  "summary": "I used 56 of the 60 allowed WebSearch calls and no other web tools. The strongest refutation is against T6, the 2013 RAV4 at Golden Cars (stock B1641, still listed at $12,050, 133,213 mi, 59 days on market). Two separate searches returned the Golden Cars listing itself, and both summarize its CARFAX as \"damage reported, personal use, 3+ owners, 30 service records.\" That contradicts the \"no accidents\" claim.\n\nSeveral summaries also tie the same VIN to a Handy Toyota listing in Saint Albans VT: 170,720 mi, $10,282, accident reported, 2 owners, 28 service records, last serviced in VT on 07/31/26. If that were the same car, the odometer would have gone backward by about 37,500 miles, which would rule it out. But the VT history gives a first-owner date of 02/06/13 in NJ, while the CARFAX snippet for T6 says 10/07/13, and the owner counts differ. That points to a search-engine mix-up. It can't be settled without a paid CARFAX/AutoCheck pull on the VIN. At minimum, downgrade T6 until that is done.\n\nL4 (the 2013 RX 350 at Stark): after about 10 searches there is still no price in any indexed snippet. The Craigslist post is still indexed; its listing claims are clean title, locally owned, Wisconsin safety inspection done, newer tires and front brakes. The Marshall address actually does business as \"Stark on Highway 19.\" Downgrade the dealer's reputation. A customer review says a small-claims case (2026SC000185) went against Stark by default when the dealer did not appear, for $2,998.39 in engine repairs plus fees. The review also says Stark misrepresented a 30-day warranty and offered to fix the van only if the review was deleted. BBB separately shows the dealer failed to respond to 7 complaints. The court case itself was not checked against court records (the county is not stated).\n\nT1 (the 2013 Prius at Farris Auto Cottage Grove) is confirmed at $9,795, 82,281 mi, black. One summary called this VIN a 2009 Prius with 120,135 mi, but the VIN's 10th character \"D\" means a 2013, so that was a mix-up. Autolist calls the price \"high-priced.\" I found no evidence it has sold.\n\nL10 (the 2012 ES 350 in Lansing IL) is confirmed only as a CarGurus Great Deal at $8,812 with 158,222 mi. No VIN or history was found. The one Napleton VIN that came up belongs to a 2016 car at a different store and is not this one. It stays weak: high miles, front-wheel drive, far from Madison, and history unknown.\n\nT4 (the 2016 Corolla LE at Farris Auto Stoughton): price found, $10,950 at about 94k mi with no dealer fee, from a Madison Craigslist post. The VIN was not found. A different 2016 Corolla LE in Stoughton (100,719 mi, $12,700) should not be confused with it.",
+  "findings": [
+   {
+    "item": "T6 2013 RAV4 XLE AWD (Golden Cars): accident history",
+    "verdict": "corrected",
+    "detail": "The 'no accidents' claim is contradicted. Two separate searches returned the Golden Cars / CarGurus listing for VIN JTMRFREV8DD044180 (stock B1641, $12,050 incl. dealer fees, 133,213 mi, white/black, AWD, 'GREAT DEAL', 59 days on market). Both summarize its CARFAX as 'damage reported, personal use, 3+ owners, 30 service history records.' Treat it as having reported damage until a full CARFAX/AutoCheck and a pre-purchase inspection (PPI) show what the damage was.",
+    "source": "https://www.cargurus.com/Cars/m-Golden-Cars-sp417138 ; https://www.autolist.com/toyota-rav4-madison-wi"
+   },
+   {
+    "item": "T6: VIN tied to a Saint Albans VT listing (possible odometer conflict)",
+    "verdict": "unverified",
+    "detail": "Several searches tied VIN JTMRFREV8DD044180 to Handy Toyota / handygmc.com in Saint Albans VT (page ID 5917548730): white 2013 RAV4 XLE AWD, 170,720 mi, $10,282, accident reported, 2 owners, 28 service records, first owner bought 02/06/13 and kept it in NJ until 09/05/18, last serviced in Saint Albans VT on 07/31/26. If this were the same car, it would show about 37,500 more miles than Golden Cars' 133,213 only two months earlier, which suggests odometer rollback or a cluster swap and would disqualify it. Against that: the first-owner date (02/06/13) does not match the CARFAX snippet for T6 (10/07/13), and the owner counts differ (2 vs 3+). Most likely the search engine mixed up two white 2013 RAV4 XLEs, but I cannot confirm that. One summary also tied this VIN to a 2016 RAV4 LE with 150,229 mi at Golden Cars, clearly another mix-up. Required step: pull CARFAX/AutoCheck (or an NMVTIS report) on the VIN before visiting, and check the odometer trail.",
+    "source": "https://www.handygmc.com/VehicleDetails/used-2013-Toyota-RAV4-XLE-SAINT_ALBANS-VT/5917548730"
+   },
+   {
+    "item": "T6: listing status, price and dealer",
+    "verdict": "new_info",
+    "detail": "No evidence it has sold; still listed at $12,050 with 59 days on market, which gives negotiating leverage. Golden Cars: CARFAX dealer rating 2.3/5 (3 reviews), versus about 4.5–4.6 on Birdeye/Yelp/Google aggregators (35–73 reviews); positive reviews mention inspection and brake work. No BBB or odometer complaints turned up. At 133k miles now it will be about 142k at resale in Aug 2027.",
+    "source": "https://www.carfax.com/Reviews-Golden-Cars-Auto-Group-Inc-Madison-WI_SVARLLYHJ3 ; https://reviews.birdeye.com/golden-cars-166662571008707"
+   },
+   {
+    "item": "L4 2013 Lexus RX 350 AWD (Stark): price",
+    "verdict": "unverified",
+    "detail": "No price appears in any indexed snippet of the Craigslist post (7850484706), the starkonthebeltline.com page (111955355), CarGurus, Cars.com, Autotrader, KBB, iSeeCars or carsforsale, after about 10 targeted searches. The post calls it 'one of the most inexpensive 2013 Lexus RX 350 AWDs in the Dane County and Madison area', which suggests a below-market price but is not a number. Market context from search snippets: national average for a 2013 RX 350 about $14,908; KBB private-party about $11,130–$13,380; a private Wisconsin RX 350 AWD was listed at $10,989 OBO. The price has to come from a call or visit: Shawn 920-248-9211, Marshall lot (608) 716-7116, or Seybold Rd (608) 709-5330 / 557-4835.",
+    "source": "https://madison.craigslist.org/ctd/d/marshall-2013-lexus-rx-350-base-awd-35l/7850484706.html"
+   },
+   {
+    "item": "L4: still for sale and listing claims",
+    "verdict": "confirmed",
+    "detail": "The Craigslist post is still indexed, with VIN 2T2BK1BA4DC171842 and 98,690 mi. It claims: locally owned, clean title, Wisconsin safety inspection done, newer tires, newer front brakes, fresh oil change, leather, heated seats, sunroof. I found no evidence it has sold, but live status cannot be confirmed without opening the page. The 502 W Main St Marshall location does business as 'Stark on Highway 19' (Birdeye 167 reviews, iSeeCars 4.9). A people-search site ties the contact number 920-248-9211 to a Shawn Stittleburg of DeForest WI, apparently the salesperson's own phone. No accident or title data from CARFAX was found.",
+    "source": "https://www.iseecars.com/dealer-3170450-stark-on-the-beltline-in-marshall-wi ; https://www.fastbackgroundcheck.com/people/shawn-stittleburg/id/f-6335032447496852888"
+   },
+   {
+    "item": "L4: dealer reputation (Stark on the Beltline)",
+    "verdict": "downgrade",
+    "detail": "A customer review (surfaced via DealerRater/Yelp/BBB/Cars.com review pages; the exact platform isn't clear from the snippet) says the customer won a Wisconsin small-claims judgment, Case No. 2026SC000185. By that account the dealer did not appear and was ordered to pay $2,998.39 in engine repairs plus court fees. The van reportedly had a pre-existing oil-pressure/oil-pump defect that failed about 24 hours after purchase, the dealer misrepresented a verbal 30-day powertrain warranty, texted that it would not fix the van unless the review was deleted, and sent a $500 check with release language. This is the customer's account; I did not verify it against court records (Wisconsin circuit court access) and the county is not given. BBB shows the dealer failed to respond to 7 complaints, including sold warranties not honored and a $4,000 warranty refund not paid. Counterweight: CARFAX 4.2/5 (15 reviews), KBB 4.5–4.8, Birdeye 591 reviews. If pursued: independent PPI, get every promise in writing on the Wisconsin Buyers Guide, decline add-on warranties.",
+    "source": "https://www.dealerrater.com/dealer/Stark-on-the-Beltline-review-105099/ ; https://www.bbb.org/us/wi/madison/profile/used-car-dealers/stark-on-the-beltline-0694-1000030679"
+   },
+   {
+    "item": "T1 2013 Toyota Prius (Farris Auto Cottage Grove): listing",
+    "verdict": "confirmed",
+    "detail": "Farris Auto Cottage Grove listing matches: VIN JTDKN3DU3D5558801, 82,281 mi, $9,795, black exterior, gray interior. Farris charges $0 doc/service fees. I found no evidence it has sold; it is still indexed on Autolist and in the Farris Prius results. Live status is not directly confirmable. Autolist reportedly labels the price 'high-priced' against its market comparison, a mild downgrade on value. No accident or title data was found.",
+    "source": "https://www.autolist.com/toyota-prius-madison-wi ; https://www.farrisautocg.com/toyota-prius-for-sale-c648238"
+   },
+   {
+    "item": "T1: conflicting summary (2009 Prius, 120,135 mi)",
+    "verdict": "new_info",
+    "detail": "One search summary said this VIN is a '2009 Toyota Prius Standard with 120,135 miles' in Cottage Grove at $9,795. The VIN's 10th character 'D' means model year 2013, so the 2009 attribution is a search-engine mix-up. Because the price and town match, confirm the odometer against CARFAX before buying. General risk: the hybrid battery is about 13 years old.",
+    "source": null
+   },
+   {
+    "item": "L10 2012 Lexus ES 350 (Napleton's River Oaks Kia, Lansing IL)",
+    "verdict": "unverified",
+    "detail": "Only the basic listing was confirmed: a search summary of a CarGurus listing shows a 2012 ES 350 FWD, 158,222 mi, $8,812 incl. dealer fees, 'Great Deal', Lansing IL. No VIN, CARFAX history, days on market or sold status was found. A Napleton VIN that surfaced (58ABK1GG0GU013415, stock PFD14452) belongs to a 2016 car at Napleton's River Oaks CDJR, not this ES. Dealer data: CarEdge grade A transparency, doc fee $377 (Illinois average $383), usually no mandatory add-ons.",
+    "source": "https://www.cargurus.com/Cars/l-Used-2012-Lexus-ES-Chicago-c30121_L7510 ; https://caredge.com/dealer/napleton-river-oaks-kia"
+   },
+   {
+    "item": "L10: reasons to downgrade",
+    "verdict": "downgrade",
+    "detail": "158k miles now becomes about 167k at the Aug 2027 resale, which hurts resale value. It is FWD, has an unknown history with no VIN in hand, and sits in the Chicagoland salt belt, so check for rust. It is about 150+ miles from Madison, so an independent PPI is hard to arrange and an out-of-state title/registration adds steps. $8,812 is inside KBB's private-party range for a 2012 ES 350 ($8,345–$10,870), so 'Great Deal' is not a large discount.",
+    "source": "https://www.kbb.com/lexus/es/2012/es-350-sedan-4d/"
+   },
+   {
+    "item": "T4 2016 Toyota Corolla LE (Farris Auto Stoughton): price",
+    "verdict": "new_info",
+    "detail": "Price found: $10,950 with about 94k miles and 'No Dealer Fee's!', from a Madison Craigslist post attributed to Farris Auto Stoughton (817 W Main St, Stoughton; (608) 927-6091). VIN not found despite several searches. Do not confuse it with a different 2016 Corolla LE in Stoughton at 100,719 mi / $12,700. Farris Stoughton: CARFAX 4/5 (4 reviews), iSeeCars 4.7. Farris says it buys mostly southern-state cars to avoid rust. One review complained of unreturned calls.",
+    "source": "https://madison.craigslist.org/search/cta?query=stoughton ; https://www.carfax.com/Reviews-Farris-Auto-Inc-Stoughton-WI_GHEJ6UGOUD"
+   }
+  ]
+ },
+ {
+  "findings": [
+   {
+    "item": "WI sales tax 5% + Dane County 0.5% = 5.5%, based on where the car is customarily kept",
+    "verdict": "confirmed",
+    "detail": "WI DOR says county and city tax on motor vehicles depends on the county and city where the vehicle is customarily kept. Dane County's rate is 0.5%, so the combined rate is 5.5%.",
+    "source": "https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf ; https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx"
+   },
+   {
+    "item": "WI title fee $214.50 (Act 15, Oct 2025)",
+    "verdict": "confirmed",
+    "detail": "2025 Act 15 raised the base title fee from $157 to $207, effective Oct 1, 2025. With the $7.50 supplemental title fee the total is $214.50, up from $164.50.",
+    "source": "https://docs.legis.wisconsin.gov/misc/lfb/budget/2025_27_biennial_budget/285_state_tax_and_fee_modifications_included_in_2025_wisconsin_act_15_7_29_25 ; https://wisconsindot.gov/Pages/dmv/vehicles/frms-pubs/Legislation-Affecting-DMV.aspx"
+   },
+   {
+    "item": "Registration $85 + Madison wheel tax $40 + Dane County wheel tax $40 = $165",
+    "verdict": "confirmed",
+    "detail": "The auto registration fee is $85 (WisDOT fee page and MV1 form, 10/2025). Dane County raised its wheel tax from $28 to $40 for 2026. Sources disagree on the start date (Jan 1 or May 1, 2026), but it is in force either way by Oct 2026. Madison's $40 wheel tax is confirmed as enacted. I found no 2026 change, but I did not re-check the current amount on WisDOT's wheel-tax list. Total: $165/yr, plus $75 for a Prius.",
+    "source": "https://www.wmtv15news.com/2025/12/10/dane-county-community-faces-fee-increases-vehicle-registration-airport-parking-2026/ ; https://madison365.com/madison-common-council-approves-40-wheel-tax/ ; https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/dmv-fees.aspx"
+   },
+   {
+    "item": "Hybrid surcharge $75/yr",
+    "verdict": "confirmed",
+    "detail": "WisDOT charges a $75 annual hybrid surcharge, collected with each registration. EVs pay $175. Only the Prius is affected.",
+    "source": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/fuelfee.aspx"
+   },
+   {
+    "item": "New plates $12, temp plate $3",
+    "verdict": "confirmed",
+    "detail": "The plate issuance fee is $6 per plate, and a car gets two plates, so $12 (WisDOT guidance DMV422, 2019; not re-checked against Act 15). The temporary plate is $3. If bought at a DMV or inspection station there is an extra $5 counter fee.",
+    "source": "https://docs.legis.wisconsin.gov/code/register/2019/765B/register/guidance_documents/department_of_transportation_trans/public_notice_notice_of_proposed_guidance_document_dmv422.pdf ; https://wisconsindot.gov/Documents/formdocs/mv1.pdf"
+   },
+   {
+    "item": "WI dealer service fee uncapped, typically $299-499 in Madison, taxable",
+    "verdict": "corrected",
+    "detail": "No cap is confirmed: FOX6 reports that Wisconsin law does not limit it. The fee is taxable per DOR Pub 202. One exception: a separate fee for submitting the electronic title/registration application is not taxable. Madison evidence: East Madison Toyota $399, BMW of Madison $399, Metro Kia $499, Metro Ford $499. I found no $299 example, so use $399-499, taxed at 5.5% (about $421-526 all-in).",
+    "source": "https://www.fox6now.com/news/wisconsin-car-dealer-service-fees ; https://caredge.com/dealer/east-madison-toyota--wi-madison ; https://caredge.com/dealer/metro-kia-of-madison--wi-madison ; https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf"
+   },
+   {
+    "item": "IL dealer doc fee cap 2026 $377.63",
+    "verdict": "confirmed",
+    "detail": "$377.63 is the 2026 maximum. The cap is CPI-indexed and resets each January.",
+    "source": "https://illinoisdealers.com/significant-dealer-issues/ ; https://www.linkedin.com/pulse/37763-doc-fee-what-every-illinois-dealer-needs-know-2026-david-rozek-y1apc"
+   },
+   {
+    "item": "IL dealer collects no IL tax from a WI resident (ST-556/ST-588); needs out-of-state license as proof",
+    "verdict": "confirmed",
+    "detail": "The ST-556 instructions allow the nonresident exemption for buyers from reciprocal states when the dealer issues a drive-away permit or out-of-state plates are transferred. The buyer signs an ST-588 nonresidency certification, and the dealer keeps a copy of the buyer's valid out-of-state driver's license. A dealer blog and a search summary both call WI a reciprocal state; I could not read the 2026 ST-58 chart itself. Caveats: a buyer holding an IL or foreign license may not qualify. Some IL border dealers collect the WI tax and file the WI title themselves. Either way the buyer pays WI 5.5%, so the dollar effect is the same.",
+    "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/st-556-instr.pdf ; https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/st-588.pdf ; https://www.driveandersonmazda.com/buying-a-car-in-illinois-if-you-live-in-wisconsin/"
+   },
+   {
+    "item": "WI resident buying from IL private seller pays WI tax at WisDOT",
+    "verdict": "confirmed",
+    "detail": "IL's RUT-50 private-party tax applies when a vehicle is titled or registered in Illinois. A WI resident titles with WisDOT and pays WI 5.5% there.",
+    "source": "https://tax.illinois.gov/forms/sales/vehicleusetax/rut-50-instructions.html ; https://wisconsindot.gov/pages/online-srvcs/title-vehicle/emvpublicdefault.aspx"
+   },
+   {
+    "item": "WisDOT eMV Public online title application requires last 4 of SSN",
+    "verdict": "confirmed",
+    "detail": "eMV Public also requires a WI driver license or ID number and date of birth. Card payments carry a convenience fee; ACH avoids it. The signed title must still be mailed in afterward. A buyer without an SSN or a WI license/ID must use the paper MV1 at a DMV.",
+    "source": "https://wisconsindot.gov/pages/online-srvcs/title-vehicle/emvpublicdefault.aspx"
+   },
+   {
+    "item": "No emissions test in Dane County",
+    "verdict": "confirmed",
+    "detail": "Only 7 SE counties test: Kenosha, Milwaukee, Ozaukee, Racine, Sheboygan, Washington and Waukesha.",
+    "source": "https://wisconsindot.gov/Pages/dmv/vehicles/rnew-plts/emissiontest.aspx ; https://docs.legis.wisconsin.gov/misc/lc/issue_briefs/2026/transportation/ib_vehicle_emissions_testing_el_2026_07_09"
+   },
+   {
+    "item": "Gas $3.80 regular / $4.70 premium average Oct26-Aug27; Madison regular $4.03-4.46 in Sep 2026",
+    "verdict": "downgrade",
+    "detail": "The Sep 2026 Madison range is confirmed: $4.03 on Sep 14 and $4.46 on Sep 21. The AAA WI average was $4.36 on Sep 25, up $1.50 year over year. The $3.80 forward average is unverified. I could not cleanly get the EIA Sep 2026 STEO forecast; one secondary site cites $3.84 (2026) and $3.35 (2027) nationally, but the attribution is unclear. $3.80 assumes a 12-15% drop from current Madison prices. Sensitivity: each +$0.50/gal adds about $175 (Camry), $222 (ES), $326 (GX) or $350 (LR4) over 9,000 mi with the 0.92 factor. The $4.70 premium price is unverified. Consider running a $4.20 regular scenario.",
+    "source": "https://www.wsaw.com/2026/09/25/wisconsin-gas-price-average-436-per-gallon-up-150-last-year/ ; https://stacker.com/stories/wisconsin/madison/how-gas-prices-have-changed-madison-last-week ; https://truedrivingcost.com/articles/gas-price-forecast-2026-2027"
+   },
+   {
+    "item": "2010-2012 ES 350: 22 mpg, regular",
+    "verdict": "corrected",
+    "detail": "22 mpg (19/27) is confirmed. The fuel grade is wrong for 2010. Lexus pressroom says the ES 350 moved from a 91-octane to an 87-octane recommendation (268 hp on regular). The search summary put the change at MY2011, which is medium confidence, and fueleconomy.gov lists the 2011 as regular. So a 2010 ES 350 should be modeled on premium (91). That adds about 445 gal x $0.90 = about $400.",
+    "source": "https://pressroom.lexus.com/2012-lexus-es350-luxury-fuel/ ; https://www.fueleconomy.gov/feg/noframes/32079.shtml ; https://www.fueleconomy.gov/feg/noframes/30855.shtml"
+   },
+   {
+    "item": "2013-2014 ES 350: 24 mpg",
+    "verdict": "confirmed",
+    "detail": "EPA rates it 21/31, 24 combined.",
+    "source": "https://fueleconomy.gov/feg/noframes/34482.shtml"
+   },
+   {
+    "item": "2011-2013 RX 350 AWD: 20 mpg, regular",
+    "verdict": "corrected",
+    "detail": "20 mpg (18/24) is confirmed for the 2012 AWD, and Edmunds lists 2013 at 18/24. The fuel grade is wrong for 2011. Lexus pressroom says the 2012 RX 350 brought a 'new fuel recommendation of 87-octane' (retuned to 270 hp from 275). So the 2010-2011 RX 350 is 91-octane premium recommended, and only 2012-2013 run on regular. For a 2011 that adds about 489 gal x $0.90 = about $440.",
+    "source": "https://pressroom.lexus.com/2012-lexus-rx350-drive-models/ ; https://www.fueleconomy.gov/feg/noframes/31972.shtml ; https://www.edmunds.com/lexus/rx-350/2012/review/"
+   },
+   {
+    "item": "2013 RAV4 AWD: 24 mpg",
+    "verdict": "corrected",
+    "detail": "The EPA rates the 2013 RAV4 AWD at 25 combined (22 city / 29 highway), and the Limited AWD is also 25. Fuel cost drops by about $60.",
+    "source": "https://fueleconomy.gov/feg/noframes/33428.shtml ; https://mpgbuddy.com/cars/toyota/rav4-limited-awd/2013 ; https://www.cars.com/articles/real-world-fuel-economy-2013-toyota-rav4-1420663060073/"
+   },
+   {
+    "item": "2012-2014 Camry 2.5: 28 mpg",
+    "verdict": "confirmed",
+    "detail": "EPA rates it 25/35, 28 combined.",
+    "source": "https://www.edmunds.com/toyota/camry/2013/review/ ; https://www.fueleconomy.gov/feg/bymodel/2013_toyota_camry.shtml"
+   },
+   {
+    "item": "2014-2016 Corolla: 31 mpg",
+    "verdict": "corrected",
+    "detail": "The rating depends on trim. L with the 4-speed automatic: 27/36 (about 30 combined). LE/S with CVT: 29/38 (32). LE Eco: 30/40-42 (34-35). The common LE CVT is 32, so 31 is a blend. The difference is about $40.",
+    "source": "https://pressroom.toyota.com/toyota-2014-corolla-efficiency-driving-dynamics/ ; https://pressroom.toyota.com/2015-toyota-corolla-world-leader/ ; https://www.fueleconomy.gov/feg/noframes/35501.shtml"
+   },
+   {
+    "item": "2012-2015 Prius: 50 mpg",
+    "verdict": "confirmed",
+    "detail": "EPA rates the liftback 51/48, 50 combined.",
+    "source": "https://www.thecarconnection.com/overview/toyota_prius_2014"
+   },
+   {
+    "item": "GX 470: 15 mpg, premium",
+    "verdict": "confirmed",
+    "detail": "The EPA rates the 2008-2009 GX 470 at 14/18, 15 combined, on premium gasoline.",
+    "source": "https://www.fueleconomy.gov/feg/noframes/25041.shtml ; https://www.fueleconomy.gov/feg/noframes/26190.shtml"
+   },
+   {
+    "item": "LR4 5.0: 14 mpg, premium",
+    "verdict": "confirmed",
+    "detail": "The EPA rates the 2011-2013 LR4 at 12/17, 14 combined (14.5 unrounded). I did not re-check the premium requirement in this audit.",
+    "source": "https://www.fueleconomy.gov/feg/noframes/31532.shtml ; https://www.fueleconomy.gov/feg/noframes/33357.shtml"
+   },
+   {
+    "item": "0.92 winter factor",
+    "verdict": "unverified",
+    "detail": "I did not search this one to save the search budget. It is plausible as an annualized winter penalty, but it is not verified.",
+    "source": null
+   },
+   {
+    "item": "Insurance: RAV4 $1,430 ... Range Rover Sport $2,100 for age 22-28, clean 3+ yr US license",
+    "verdict": "downgrade",
+    "detail": "The per-vehicle numbers are unverified and probably low for ages 22-24. Madison's average full-coverage premium is about $1,935/yr (insure.com, standard adult profile). WI averages vary by source, from $1,516 to $2,329. One source puts WI ages 20-25 at about $3,600/yr, and the national under-25 average is about $258/mo. In Madison, young drivers pay about $89/mo for liability-only versus $59 overall (Insurify), roughly 1.5x. The model's figures are plausible only for ages 25-28 with discounts; for 22-24, use +20-50%. Also, the list includes a Highlander and a Range Rover Sport that have no mpg entries.",
+    "source": "https://www.insure.com/car-insurance/average-car-insurance-cost-in-madison-wi/ ; https://www.carinsurance.com/state/how-much-is-car-insurance-in-wisconsin/ ; https://insurify.com/car-insurance/wisconsin/madison/"
+   },
+   {
+    "item": "New-to-US driver pays about 1.4x",
+    "verdict": "unverified",
+    "detail": "Insurer and aggregator sources (Insurify, insurance.com, Experian) say drivers with no US history are priced like newly licensed US drivers and often lack US credit. I found no source for a specific multiplier, and 1.4x may be low. Get actual quotes.",
+    "source": "https://insurify.com/car-insurance/driver/international-drivers/ ; https://www.experian.com/blogs/ask-experian/car-insurance-for-foreign-drivers-in-us/"
+   },
+   {
+    "item": "Liability + comprehensive (no collision) about 56% of full coverage",
+    "verdict": "unverified",
+    "detail": "This is consistent but not directly verified. WI liability-only is about 45% of full coverage ($682 vs $1,516, carinsurance.com; $57 vs $126/mo, Insurify). Adding comprehensive would plausibly bring it to about 50-58%.",
+    "source": "https://www.carinsurance.com/state/how-much-is-car-insurance-in-wisconsin/ ; https://insurify.com/car-insurance/wisconsin/average-cost/"
+   },
+   {
+    "item": "Private-party value change Oct26->Aug27: Corolla -3%, Prius -4%, RAV4/Camry/ES -5%, RX -6%, Land Rover -10 to -13%",
+    "verdict": "confirmed",
+    "detail": "KBB 3-year depreciation mostly supports these figures. 2015 Corolla: -11%/3yr, about -3.8%/yr. 2013 Prius: -12%/3yr, but the Prius Four trim is -24%/3yr, so -4% may be low for upper trims. 2013 RAV4: -16%/3yr, about -5.5%/yr. 2012 ES 350: -15%/3yr. 2012 RX: -9%/3yr, about -3%/yr, so the model's -6% is conservative. 2013 LR4: -33%/3yr, about -12.5%/yr, or roughly -10.5% over 10 months, which fits. Camry was not checked. On the market side, the Manheim index for mid-Sep 2026 was -0.4% year over year, with compact cars still above year-ago values.",
+    "source": "https://www.kbb.com/toyota/corolla/2015/depreciation/ ; https://www.kbb.com/toyota/prius/2013/depreciation/ ; https://www.kbb.com/toyota/rav4/2013/depreciation ; https://www.kbb.com/lexus/es/2012/depreciation/ ; https://www.kbb.com/lexus/rx/2012/depreciation/ ; https://www.kbb.com/land-rover/lr4/2013/depreciation ; https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-september-2026-trends/"
+   },
+   {
+    "item": "Dealer/instant offers 70-75% of private-party (Toyota/Lexus), 52-60% (Land Rover)",
+    "verdict": "confirmed",
+    "detail": "KBB trade-in as a share of private-party value: Corolla 78%, RAV4 83%, ES 77%, RX 77% (about 71% using the condition ranges), Prius 74% (Four trim 66%). LR4 is 67% on the headline number, but the trade-in range of $3,950-4,225 against $7,750 is 51-55%. So 70-75% is reasonable and slightly conservative against KBB trade-in values. Caveat: KeySavvy, a private-sale platform with a bias, says Carvana offers on cars over 100k miles average about half of private-party value.",
+    "source": "https://www.kbb.com/toyota/rav4/2013/depreciation ; https://www.kbb.com/lexus/es/2012/depreciation/ ; https://www.kbb.com/land-rover/lr4/2013/depreciation ; https://www.keysavvy.com/blog/is-it-better-to-trade-in-or-sell-my-car"
+   },
+   {
+    "item": "Seasonality: prices bottom Dec-Feb, June-July worst for buyers, August seller-friendly",
+    "verdict": "corrected",
+    "detail": "iSeeCars confirms prices bottom between Dec 31 and Feb 28, with January the best month (+41% deals). June is the worst month, with May and July close behind. But iSeeCars notes 'some respite in August' for buyers, so August is less seller-favorable than June or July. iSeeCars also calls April-October the worst window to buy, which means an October 2026 purchase falls in it. Buying in Nov-Jan could lower the purchase price.",
+    "source": "https://www.iseecars.com/best-times-to-buy-cars-study ; https://www.iseecars.com/best-time-to-buy-dec-study"
+   }
+  ],
+  "summary": "I checked each assumption with fresh searches (55 WebSearch calls; the tool ran 4 extra internal searches, so about 59 in total, under the 60 cap).\n\n**Largest corrections (fuel grade and mpg):**\n- **2010 ES 350:** it is premium-recommended, not regular. Lexus moved the ES 350 to 87 octane, and the search summary put that at MY2011. Adds about $400.\n- **2011 RX 350:** it is premium (91) recommended. Lexus pressroom says the 87-octane recommendation was new for 2012. Adds about $440.\n- **2013 RAV4 AWD:** the EPA combined rating is 25 mpg, not 24. Saves about $60.\n- **Corolla:** mpg depends on trim: L 30, LE/S CVT 32, LE Eco 34-35. Use 32 for a typical LE.\n\n**Other mpg values:** these are confirmed:\n- ES 2013-14: 24\n- RX AWD: 20\n- Camry: 28\n- Prius: 50\n- GX 470: 15, premium\n- LR4: 14\n\n**Fees:** these are all confirmed:\n- 5.5% sales tax based on where the car is kept\n- $214.50 title fee ($207 + $7.50, Act 15, Oct 1, 2025)\n- $85 registration\n- Dane County wheel tax raised from $28 to $40 for 2026\n- Madison wheel tax $40\n- $75 hybrid surcharge\n- $6 per plate ($12 total)\n- $3 temp plate, plus a $5 counter fee if bought at a DMV\n- IL doc fee cap $377.63\n- IL nonresident exemption (ST-556/ST-588, with the dealer keeping a copy of an out-of-state license)\n- IL private seller pays WI tax at WisDOT\n- eMV Public needs the last 4 of an SSN, plus a WI license/ID number\n- No emissions test in Dane County\n\nOne refinement: the WI dealer service fee has no cap and is taxable, but observed Madison fees are $399-499; I found no $299 example.\n\n**Downgrades:**\n- **Gas:** the Madison Sep 2026 range of $4.03-4.46 is confirmed, but the $3.80 forward average is unverified. It is 12-15% below current prices, and each $0.50/gal adds $175-350.\n- **Insurance:** probably understated for ages 22-24. Madison's average is about $1,935; one source puts WI ages 20-25 at about $3,600; young drivers pay about 1.5x.\n- **Unverified:** the 1.4x new-to-US multiplier (may be low), the 56% liability+comp ratio (consistent with a ~45% liability-only ratio) and the 0.92 winter factor.\n\n**Resale:** KBB 3-year depreciation supports the percentages. The RX -6% is conservative, and the Prius -4% may be light for upper trims. Dealer/instant offers at 70-75% are consistent with KBB trade-in ratios of 71-83%. LR4 trade-in is about 51-55% (range) to 67% (headline).\n\n**Seasonality:** partly corrected. iSeeCars confirms the Dec-Feb price bottom and June as the worst month, but notes \"some respite in August\" for buyers, and it lists October purchases in the unfavorable April-October window."
+ }
+]
