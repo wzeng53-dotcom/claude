@@ -81,17 +81,18 @@ MODELS = {
 }
 
 
-def purchase_costs(price, seller, hybrid):
-    """One-time costs on top of the price. seller: 'private' | 'wi_dealer' | 'il_dealer'."""
+def purchase_costs(price, seller, hybrid, fee=None):
+    """One-time costs on top of the price. seller: 'private' | 'wi_dealer' | 'il_dealer'.
+    fee: the dealer's actual doc/service fee if known (0 when the advertised price already includes fees)."""
     reg = REGISTRATION + (HYBRID_SURCHARGE if hybrid else 0)
     if seller == 'private':
         fee, tax, extra = 0, SALES_TAX * price, TEMP_PLATE_PRIVATE + HISTORY_REPORT_PRIVATE
     elif seller == 'wi_dealer':
-        fee = WI_DEALER_SERVICE_FEE
+        fee = WI_DEALER_SERVICE_FEE if fee is None else fee
         tax = SALES_TAX * (price + fee)          # WI service fee is part of the taxable price
         extra = 0
     elif seller == 'il_dealer':
-        fee = IL_DEALER_DOC_FEE
+        fee = IL_DEALER_DOC_FEE if fee is None else fee
         tax = SALES_TAX * (price + fee)          # conservative: assume WI taxes the IL doc fee too
         extra = IL_DRIVE_AWAY
     else:
@@ -116,9 +117,9 @@ def running_costs(m, pp_now, profile='a', gas='base', coverage='auto', miles=MIL
                 winter_tires=m['winter']), coverage
 
 
-def tco(model_key, price, seller, pp_now, profile='a', gas='base', coverage='auto', miles=MILES):
+def tco(model_key, price, seller, pp_now, profile='a', gas='base', coverage='auto', miles=MILES, fee=None):
     m = MODELS[model_key]
-    buy = purchase_costs(price, seller, m['hybrid'])
+    buy = purchase_costs(price, seller, m['hybrid'], fee)
     run, cov = running_costs(m, pp_now, profile, gas, coverage, miles)
     pp27, dealer27 = resale(pp_now, m, miles)
     upfront = price + sum(buy.values())
@@ -151,8 +152,8 @@ def listings(profile='a', gas='base', coverage='auto'):
         m = MODELS[l['model_key']]
         # private-party market value of THIS car today
         pp_now = l.get('pp_now') or (l['price'] if l['seller'] == 'private' else l['price'] / m['retail_premium'])
-        r = tco(l['model_key'], l['price'], l['seller'], pp_now, profile, gas, coverage)
-        r.update(id=l['id'], label=l['label'], status=l.get('status', ''))
+        r = tco(l['model_key'], l['price'], l['seller'], pp_now, profile, gas, coverage, fee=l.get('fee'))
+        r.update(id=l['id'], label=l['label'], status=l.get('status', ''), verdict=l.get('verdict', ''))
         rows.append(r)
     return rows
 

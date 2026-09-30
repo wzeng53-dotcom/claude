@@ -1,0 +1,21 @@
+[
+ {"id":"T6","label":"T6 2013 RAV4 XLE AWD 133k, Golden Cars Madison ($12,050 incl. fees)","model_key":"rav4awd","price":12050,"seller":"wi_dealer","fee":0,"pp_now":11000,"verdict":"ok"},
+ {"id":"L4","label":"L4 2013 RX 350 AWD 98.7k, Stark on the Beltline Madison (price TBD; modeled at $12,500)","model_key":"rx350","price":12500,"seller":"wi_dealer","pp_now":13000,"verdict":"ok"},
+ {"id":"T4","label":"T4 2016 Corolla LE 94k, Farris Auto Stoughton, no dealer fee (price TBD; modeled at $11,900)","model_key":"corolla","price":11900,"seller":"wi_dealer","fee":0,"pp_now":10500,"verdict":"ok"},
+ {"id":"T1","label":"T1 2013 Prius 82k, Cottage Grove ($9,795; availability TBD)","model_key":"prius","price":9795,"seller":"wi_dealer","fee":0,"pp_now":9000,"verdict":"weak (unverified)"},
+ {"id":"T3","label":"T3 2015 Corolla LE, Farris Auto, no dealer fee ($10,950; miles TBD)","model_key":"corolla","price":10950,"seller":"wi_dealer","fee":0,"pp_now":9500,"verdict":"weak (unverified)"},
+ {"id":"L5","label":"L5 2013 RX 350 AWD 132k, Berman Subaru Chicago ($13,795 incl. fees)","model_key":"rx350","price":13795,"seller":"il_dealer","fee":0,"pp_now":12000,"verdict":"ok"},
+ {"id":"L6","label":"L6 2014 ES 350 141k, Cumberland Auto Des Plaines IL ($11,995)","model_key":"es350g6","price":11995,"seller":"il_dealer","pp_now":10800,"verdict":"ok"},
+ {"id":"L2","label":"L2 2012 RX 350 AWD 144k, McGrath Acura Libertyville IL ($11,160)","model_key":"rx350","price":11160,"seller":"il_dealer","fee":368,"pp_now":9500,"verdict":"ok"},
+ {"id":"L10","label":"L10 2012 ES 350 158k, Napleton River Oaks Kia Lansing IL ($8,812 incl. fees)","model_key":"es350","price":8812,"seller":"il_dealer","fee":0,"pp_now":8000,"verdict":"ok"},
+ {"id":"L11","label":"L11 2012 ES 350 86k, private seller Bartlett IL ($10,995; may be stale)","model_key":"es350","price":10995,"seller":"private","pp_now":11500,"verdict":"ok (unverified)"},
+ {"id":"L1","label":"L1 2011 RX 350 AWD 114k, Top Gear Motors Addison IL ($12,800)","model_key":"rx350","price":12800,"seller":"il_dealer","pp_now":10500,"verdict":"ok"},
+ {"id":"T13","label":"T13 2014 Camry LE 106k, Car Luxe Crest Hill IL ($11,995-12,372)","model_key":"camry","price":12372,"seller":"il_dealer","pp_now":10500,"verdict":"ok"},
+ {"id":"T15","label":"T15 2012 Camry 109k, 1st Choice Joliet IL ($11,344 incl. fees)","model_key":"camry","price":11344,"seller":"il_dealer","fee":0,"pp_now":9800,"verdict":"ok"},
+ {"id":"T12","label":"T12 2014 Corolla 122k, Milwaukee area ($9,595; seller TBD)","model_key":"corolla","price":9595,"seller":"wi_dealer","pp_now":9000,"verdict":"weak (unverified)"},
+ {"id":"T17","label":"T17 2011 ES 350 110k, private seller Lemont IL ($10,900)","model_key":"es350","price":10900,"seller":"private","pp_now":9800,"verdict":"weak (unverified)"},
+ {"id":"T14","label":"T14 2012 Camry SE 124k, 1 owner but accident reported, Your Choice Elgin IL ($10,999)","model_key":"camry","price":10999,"seller":"il_dealer","pp_now":8800,"verdict":"ok"},
+ {"id":"T2","label":"T2 2012 Prius 108k, Schoepp Motors Middleton ($10,999)","model_key":"prius","price":10999,"seller":"wi_dealer","pp_now":8800,"verdict":"weak (overpriced)"},
+ {"id":"T8","label":"T8 2012 RAV4 4WD 107k, Tri City Auto Menasha ($13,500 + $195 fee)","model_key":"rav4awd","price":13500,"seller":"wi_dealer","fee":195,"pp_now":10500,"verdict":"weak (overpriced)"},
+ {"id":"L8","label":"L8 2011 ES 350 101k, Smart Motors Madison ($12,997-13,296, one-price)","model_key":"es350","price":12997,"seller":"wi_dealer","fee":299,"pp_now":10000,"verdict":"weak (overpriced)"}
+]
