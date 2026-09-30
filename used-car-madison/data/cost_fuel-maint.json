@@ -1,0 +1,293 @@
+{
+ "fuel_prices": "VERIFIED FROM SEARCH RESULTS (Sept 2026):\n- Madison, WI regular: $4.03/gal as of 2026-09-14 (+$0.21 in a week; WI avg $4.09 that day). It was $4.46/gal as of 2026-09-21 (+$0.43, +10.7% in a week; +$1.56, +53.7% year over year; WI avg $4.44 per that Stacker update). Madison diesel was $6.10 (9/14) and $6.60 (9/21). Source: Stacker \"How gas prices have changed in Madison in the last week\" https://stacker.com/stories/wisconsin/madison/how-gas-prices-have-changed-madison-last-week (also syndicated at https://www.news-shield.com/news/state_news/article_c4dd943b-7ef1-5912-8c6c-b0b5ad4739fc.html).\n- Wisconsin statewide regular (AAA): about $4.11 on Wed 2026-09-16, then $4.34 on Thu 2026-09-17, a jump of more than 20 cents overnight tied to Iran war and Strait of Hormuz volatility, with crude near $100. WI diesel hit a record of about $6.19. Source: WTMJ https://wtmj.com/news/2026/09/17/wisconsin-gas-prices-jump-more-than-20-cents-overnight-aaa-says/\n- Wisconsin statewide regular (AAA): $4.36 on 2026-09-25, up $1.50 from a year earlier. The WI record is $4.92 (June 12, 2022). Source: WSAW https://www.wsaw.com/2026/09/25/wisconsin-gas-price-average-436-per-gallon-up-150-last-year/\n- National (AAA) on 2026-09-28: regular $4.4768, PREMIUM $5.3625 (up $1.38 from $3.98 a year earlier), so premium ran about $0.89 above regular. Source: https://themoneyoverview.com/14-premium-gas-averages-5-36-a-gallon-up-1-38-from-a-year-ago/ ; AAA newsroom https://newsroom.aaa.com/2026/09/national-average-climbs-nearly-5-cents-since-last-week/\n- BLS put the premium-minus-regular gap at $0.934 in Aug 2026. In July 2026 the gap was about $0.90, and experts said it could reach $1 by year end. Sources: https://www.cnn.com/2026/07/03/business/premium-gas ; https://www.thedrive.com/news/the-price-gap-between-regular-and-premium-gas-is-widening-drivers-are-responding-tds\n- I could not find a Madison-specific PREMIUM price in any search result. ESTIMATE: Madison premium is about Madison regular + $0.85-0.95, so roughly $5.30-5.40/gal in late Sept 2026.\n\nEIA FORECAST (Sept 9, 2026 STEO): US retail regular averages $3.84/gal in 2026 and $3.35/gal in 2027. Wholesale gasoline goes from $3.11 to $2.39. Brent averages $91.01/b in 2026 and $73.74/b in 2027. EIA expects the Strait of Hormuz constraints to last through 4Q26, with Middle East output near pre-conflict levels by 2Q27. Sources: https://finance.yahoo.com/sectors/energy/articles/eia-raises-usa-fuel-price-165930520.html ; https://www.rigzone.com/news/eia_raises_usa_fuel_price_projections_for_2026_2027-17-apr-2026-183480-article/ ; https://www.eia.gov/outlooks/steo/pdf/steo_text.pdf ; https://truedrivingcost.com/articles/gas-price-forecast-2026-2027\n- EIA has repeatedly revised its 2027 forecast: Feb $2.93, Mar $3.18, Apr $3.46, Sep $3.35. Actual late-Sept prices ($4.48 national) are already well above the Sept STEO path, so the forecast is highly uncertain.\n\nMY PLANNING ESTIMATE for Oct 2026-Aug 2027 in Madison (estimate, not a sourced number): about $3.80/gal regular and about $4.70/gal premium on average. This assumes Q4 2026 stays around $4.0-4.5 and 2027 falls toward about $3.3-3.6. For a bad case, use $4.40 regular / $5.30 premium.\nFuel cost for 9,000 miles at $3.80 regular: 50 mpg $684; 42 mpg $814; 40 mpg $855; 30 mpg $1,140; 28 mpg $1,221; 26 mpg $1,315; 25 mpg $1,368; 24 mpg $1,425; 22 mpg $1,555; 21 mpg $1,629; 20 mpg $1,710; 18 mpg $1,900.\nAt $4.70 premium: 24 mpg $1,763; 22 mpg $1,923; 21 mpg $2,014; 20 mpg $2,115; 17 mpg $2,488; 15 mpg $2,820; 14 mpg $3,021; 13 mpg $3,254.",
+ "models": [
+  {
+   "model": "Lexus ES 350 (5th gen)",
+   "years": "2007-2012",
+   "engine_drivetrain": "3.5L V6 (2GR-FE), 6AT, FWD",
+   "epa_combined_mpg": 22,
+   "fuel_grade": "2007-2010: premium 91 recommended, 87 allowed (2010 owner's manual). 2011-2012: engine revised to use regular (per the cars.com/Edmunds result summary)",
+   "annual_maintenance_repair_usd": 850,
+   "maintenance_basis": "ESTIMATE $700-1,000/yr for a 10-15 yr old example. From memory, RepairPal's all-ages ES 350 average is about $468/yr (not re-verified this session).",
+   "notes": "EPA 19 city / 27 hwy / 22 combined (2011, confirmed by search). Fuel for 9k miles: about $1,555 on regular or about $1,923 on premium (estimate). Known items (from memory): 2007-2009 sticky/melting dash (cosmetic), water pump near 100k, VVT-i rubber oil line on early 2GR-FE (recall). A strong value pick because it is reliable, cheap to fix, and holds resale.",
+   "source_urls": [
+    "https://fueleconomy.gov/feg/noframes/30855.shtml",
+    "https://fueleconomy.gov/feg/noframes/29503.shtml",
+    "https://www.fueleconomy.gov/feg/noframes/32079.shtml",
+    "https://www.edmunds.com/lexus/es-350/2011/mpg/",
+    "https://www.cars.com/research/lexus-es_350-2011/",
+    "https://www.clublexus.com/forums/es-5th-gen-2007-2012/561428-octane-rating-for-my-07-es350.html",
+    "https://support.lexus.com/s/article/Which-fuel-grade-shou-8129"
+   ]
+  },
+  {
+   "model": "Lexus ES 350 (6th gen)",
+   "years": "2013-2015",
+   "engine_drivetrain": "3.5L V6, 6AT, FWD",
+   "epa_combined_mpg": 24,
+   "fuel_grade": "Regular 87 (from memory; check the fueleconomy.gov 2014 page)",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-900/yr. Not verified this session.",
+   "notes": "EPA about 21/31/24 (from memory, unverified). Fuel for 9k miles is about $1,425. Probably above $13k unless mileage is high.",
+   "source_urls": [
+    "https://fueleconomy.gov/feg/noframes/34482.shtml",
+    "https://www.fueleconomy.gov/feg/bymodel/2014_Lexus_ES.shtml"
+   ]
+  },
+  {
+   "model": "Lexus ES 300h",
+   "years": "2013-2015",
+   "engine_drivetrain": "2.5L I4 hybrid, eCVT, FWD",
+   "epa_combined_mpg": 40,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-900/yr plus hybrid battery risk. Not verified.",
+   "notes": "EPA about 40/39/40 (from memory). The search confirmed the 2.5L I4 hybrid. Fuel for 9k miles is about $855. Hybrid battery ESTIMATE: about $3,000-4,500 at a dealer, $2,000-2,500 reconditioned. Factory hybrid warranty (8yr/100k) has expired on all of these.",
+   "source_urls": [
+    "https://www.fueleconomy.gov/feg/noframes/34481.shtml",
+    "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=34481"
+   ]
+  },
+  {
+   "model": "Lexus IS 250 (RWD / AWD)",
+   "years": "2006-2013 (also 2014-2015)",
+   "engine_drivetrain": "2.5L V6 direct injection (4GR-FSE), 6AT (6MT RWD); RWD or AWD",
+   "epa_combined_mpg": 23,
+   "fuel_grade": "Premium 91 recommended/required (from memory)",
+   "annual_maintenance_repair_usd": 1000,
+   "maintenance_basis": "ESTIMATE $800-1,200/yr. Not verified.",
+   "notes": "EPA from memory: RWD auto about 21/29/24, AWD about 20/26/22. Fuel for 9k miles on premium is about $1,839-1,923. Known issue: carbon buildup and rough idle from direct injection. RWD on all-season tires is poor in Madison snow, so budget for winter tires or choose AWD.",
+   "source_urls": [
+    "https://fueleconomy.gov/feg/bymodel/2011_Lexus_IS.shtml"
+   ]
+  },
+  {
+   "model": "Lexus IS 350",
+   "years": "2006-2013",
+   "engine_drivetrain": "3.5L V6 (2GR-FSE), 6AT; RWD (AWD 2010+)",
+   "epa_combined_mpg": 21,
+   "fuel_grade": "Premium 91",
+   "annual_maintenance_repair_usd": 1000,
+   "maintenance_basis": "ESTIMATE $800-1,200/yr. Not verified.",
+   "notes": "EPA from memory is about 18/25/21 RWD. The fueleconomy.gov pages for the 2011 RWD and AWD were found but their numbers were not shown. Fuel for 9k miles on premium is about $2,014. RWD needs winter tires.",
+   "source_urls": [
+    "https://www.fueleconomy.gov/feg/noframes/30608.shtml",
+    "https://www.fueleconomy.gov/feg/noframes/30609.shtml",
+    "https://www.fueleconomy.gov/feg/noframes/33644.shtml"
+   ]
+  },
+  {
+   "model": "Lexus GS 350",
+   "years": "2007-2011 (2013-2015 gen)",
+   "engine_drivetrain": "3.5L V6 DI, 6AT; RWD or AWD",
+   "epa_combined_mpg": 21,
+   "fuel_grade": "Premium 91",
+   "annual_maintenance_repair_usd": 1100,
+   "maintenance_basis": "ESTIMATE $900-1,300/yr. Not verified.",
+   "notes": "EPA from memory: 2007-2011 RWD about 18/25/21, AWD about 17/24/20. 2013-2015 RWD about 19/28/22. Fuel for 9k miles is about $2,014 on premium. Buy AWD or budget for winter tires.",
+   "source_urls": []
+  },
+  {
+   "model": "Lexus RX 350",
+   "years": "2007-2009 and 2010-2015",
+   "engine_drivetrain": "3.5L V6 (2GR-FE); 5AT (07-09) / 6AT (10-15); FWD or AWD",
+   "epa_combined_mpg": 20,
+   "fuel_grade": "2007-2009: premium recommended. 2010-2015: regular 87 per most sources (from memory, verify)",
+   "annual_maintenance_repair_usd": 1050,
+   "maintenance_basis": "ESTIMATE $900-1,300/yr (07-09), $800-1,200/yr (10-15). RepairPal all-ages RX 350 average is about $551/yr (from memory, unverified).",
+   "notes": "EPA from memory: 2007-09 FWD 18/24/20, AWD 17/23/19. 2010-15 FWD 18/25/21, AWD 18/24/20. Fuel for 9k miles is about $1,629-1,710 on regular. The AWD version has strong resale in WI. Check the AWD transfer case, water pump, and oil cooler line.",
+   "source_urls": [
+    "https://thedriveradviser.com/types-of-gas-a-lexus-rx350-takes-explained/"
+   ]
+  },
+  {
+   "model": "Lexus RX 450h",
+   "years": "2010-2015",
+   "engine_drivetrain": "3.5L V6 hybrid, eCVT; FWD or AWD (rear e-motor)",
+   "epa_combined_mpg": 30,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 1100,
+   "maintenance_basis": "ESTIMATE $900-1,300/yr plus hybrid battery and inverter risk. Not verified.",
+   "notes": "EPA from memory: FWD 32/28/30, AWD 30/28/29. Fuel for 9k miles is about $1,140-1,179. Hybrid battery ESTIMATE: about $3,500-6,000 at a dealer, $2,500-3,500 reconditioned.",
+   "source_urls": []
+  },
+  {
+   "model": "Lexus GX 470",
+   "years": "2003-2009",
+   "engine_drivetrain": "4.7L V8 (2UZ-FE), 5AT, full-time 4WD, body-on-frame",
+   "epa_combined_mpg": 15,
+   "fuel_grade": "Premium 91 recommended (from memory)",
+   "annual_maintenance_repair_usd": 1250,
+   "maintenance_basis": "ESTIMATE $1,000-1,500/yr. Not verified.",
+   "notes": "EPA from memory is about 14/18/15. Fuel for 9k miles on premium is about $2,820 (about $2,280 on regular). Timing belt is due about every 90k miles (about $900-1,200, estimate). Rear air suspension on some trims. Check the frame for salt rust. Very durable, but its fuel cost is the highest of the Lexus options.",
+   "source_urls": []
+  },
+  {
+   "model": "Lexus CT 200h",
+   "years": "2011-2017",
+   "engine_drivetrain": "1.8L I4 hybrid (Prius drivetrain), eCVT, FWD",
+   "epa_combined_mpg": 42,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-900/yr plus hybrid battery risk. Not verified.",
+   "notes": "EPA from memory is about 43/40/42. Fuel for 9k miles is about $814. Hybrid battery ESTIMATE: about $2,500-3,800 at a dealer, $1,500-2,200 reconditioned. Low ground clearance in snow.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Camry 2.5L 4-cyl",
+   "years": "2012-2017",
+   "engine_drivetrain": "2.5L I4 (2AR-FE), 6AT, FWD",
+   "epa_combined_mpg": 28,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 650,
+   "maintenance_basis": "ESTIMATE $500-800/yr. RepairPal all-ages Camry average is about $388/yr (from memory, unverified).",
+   "notes": "EPA from memory is about 25/35/28 (some years 29). Fuel for 9k miles is about $1,221. Cheap parts. Very liquid resale.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Camry V6",
+   "years": "2012-2017",
+   "engine_drivetrain": "3.5L V6, 6AT, FWD",
+   "epa_combined_mpg": 25,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 700,
+   "maintenance_basis": "ESTIMATE $550-850/yr. Not verified.",
+   "notes": "EPA from memory is about 21/31/25. Fuel for 9k miles is about $1,368.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Camry Hybrid",
+   "years": "2012-2017",
+   "engine_drivetrain": "2.5L I4 hybrid, eCVT, FWD",
+   "epa_combined_mpg": 40,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 700,
+   "maintenance_basis": "ESTIMATE $550-850/yr plus battery risk. Not verified.",
+   "notes": "EPA from memory: LE about 43/39/41, other trims about 40. Fuel for 9k miles is about $834-855. Battery replacement ESTIMATE is about $2,500-4,000 new, less for reconditioned.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Avalon",
+   "years": "2013-2018",
+   "engine_drivetrain": "3.5L V6, 6AT, FWD (Hybrid 2.5L also offered)",
+   "epa_combined_mpg": 25,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-900/yr. RepairPal all-ages Avalon average is about $463/yr (from memory, unverified).",
+   "notes": "EPA from memory: V6 about 21/31/25, Hybrid about 40. Fuel for 9k miles is about $1,368 (V6). Similar to a Lexus ES for less money, but resale is weaker than a Camry's.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Corolla",
+   "years": "2009-2016",
+   "engine_drivetrain": "1.8L I4; 4AT (09-13) / CVT (14-16); FWD",
+   "epa_combined_mpg": 30,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 575,
+   "maintenance_basis": "ESTIMATE $450-700/yr. RepairPal all-ages Corolla average is about $362/yr (from memory, unverified).",
+   "notes": "EPA from memory: 2009-13 about 26/34/29, 2014-16 LE about 29/38/32. Fuel for 9k miles is about $1,069-1,179. Lowest total cost among the non-hybrids.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Prius (Gen 3)",
+   "years": "2010-2015",
+   "engine_drivetrain": "1.8L I4 hybrid, eCVT, FWD",
+   "epa_combined_mpg": 50,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 700,
+   "maintenance_basis": "ESTIMATE $500-800/yr plus big-ticket risk. RepairPal all-ages Prius average is about $408/yr (from memory, unverified).",
+   "notes": "EPA from memory is about 51/48/50. Fuel for 9k miles is about $684, the lowest of all candidates. Known Gen-3 risks (from memory): EGR cooler clog leading to head gasket failure (about $2,000-3,000), brake actuator (about $1,500-3,000), oil burning at high miles. Hybrid battery ESTIMATE: new OEM about $2,500-3,500 installed, reconditioned about $1,200-2,000. Low clearance in snow.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota RAV4 2.5L",
+   "years": "2013-2016 (2016 Hybrid also)",
+   "engine_drivetrain": "2.5L I4, 6AT; FWD or AWD",
+   "epa_combined_mpg": 25,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 650,
+   "maintenance_basis": "ESTIMATE $500-800/yr. RepairPal all-ages RAV4 average is about $429/yr (from memory, unverified).",
+   "notes": "EPA from memory: FWD 24/31/26 (2016: 23/30/26), AWD 22/29/25. Fuel for 9k miles is about $1,315-1,368. An AWD RAV4 has very strong WI resale and sells fast, a good choice for selling in Aug 2027.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Highlander V6",
+   "years": "2008-2016",
+   "engine_drivetrain": "3.5L V6; 5AT (08-13) / 6AT (14-16); FWD or AWD",
+   "epa_combined_mpg": 20,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 800,
+   "maintenance_basis": "ESTIMATE $650-1,000/yr. RepairPal all-ages Highlander average is about $489/yr (from memory, unverified).",
+   "notes": "EPA from memory: 2008-13 FWD 18/24/20, AWD 17/22/19. 2014-16 FWD 19/25/21, AWD 18/24/20. Fuel for 9k miles is about $1,629-1,800.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota Venza",
+   "years": "2009-2015",
+   "engine_drivetrain": "2.7L I4 or 3.5L V6, 6AT; FWD or AWD",
+   "epa_combined_mpg": 22,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-950/yr. Not verified.",
+   "notes": "EPA from memory: 2.7 FWD about 21/27/23, V6 FWD about 19/26/21, AWD about 20-21 combined. Fuel for 9k miles is about $1,487-1,710. Often priced below a RAV4 or Highlander, which could make it a bargain.",
+   "source_urls": []
+  },
+  {
+   "model": "Toyota 4Runner",
+   "years": "2010-2019 (5th gen); 2003-2009 (4th gen)",
+   "engine_drivetrain": "4.0L V6, 5AT, RWD or 4WD, body-on-frame",
+   "epa_combined_mpg": 18,
+   "fuel_grade": "Regular 87",
+   "annual_maintenance_repair_usd": 750,
+   "maintenance_basis": "ESTIMATE $600-900/yr. RepairPal all-ages 4Runner average is about $514/yr (from memory, unverified).",
+   "notes": "EPA from memory is about 17/21/18 (5th gen). Fuel for 9k miles is about $1,900. Excellent resale, but within $13k expect very high miles or a 4th gen. Check the frame for rust.",
+   "source_urls": []
+  },
+  {
+   "model": "Land Rover LR4 5.0 V8",
+   "years": "2010-2013 (2014-2016 3.0 SC V6)",
+   "engine_drivetrain": "5.0L V8 (AJ-V8), 6AT, 4WD with air suspension",
+   "epa_combined_mpg": 14,
+   "fuel_grade": "Premium 91 required",
+   "annual_maintenance_repair_usd": 3000,
+   "maintenance_basis": "ESTIMATE $2,000-4,000+/yr for a 10-15 yr old example. From memory, RepairPal's Land Rover brand average is about $1,174/yr (all ages, unverified). Consumer Reports consistently ranks Land Rover near the bottom for reliability.",
+   "notes": "EPA from memory: 5.0 V8 about 12/17/14; 3.0 SC V6 (2014-16) about 15/19/17. Fuel for 9k miles on premium is about $3,021 (V8). Common big bills (estimates): air suspension compressor or airbags $1,000-2,500, 5.0 V8 timing chain/tensioner $4,000-6,000, coolant pipes, water pump. Needs 19-inch or larger wheels for winter tires. Resale drops steeply and dealers pay very little for them.",
+   "source_urls": []
+  },
+  {
+   "model": "Land Rover Range Rover Sport",
+   "years": "2010-2013 (2014-2016 L494)",
+   "engine_drivetrain": "5.0L V8 (NA or supercharged), 6AT; 2014+ 3.0 SC V6 8AT; 4WD with air suspension",
+   "epa_combined_mpg": 14,
+   "fuel_grade": "Premium 91 required",
+   "annual_maintenance_repair_usd": 3000,
+   "maintenance_basis": "ESTIMATE $2,000-4,000+/yr. Not verified.",
+   "notes": "EPA from memory: 5.0 NA about 12/17/14, SC about 13 combined; 2014-16 V6 SC about 17/23/19. Fuel for 9k miles on premium is about $3,000-3,250 (V8). High repair risk.",
+   "source_urls": []
+  },
+  {
+   "model": "Land Rover Range Rover Evoque 2.0T",
+   "years": "2012-2016",
+   "engine_drivetrain": "2.0L turbo I4; 6AT (2012-13) / ZF 9AT (2014+); AWD",
+   "epa_combined_mpg": 23,
+   "fuel_grade": "Premium 91 recommended/required",
+   "annual_maintenance_repair_usd": 2250,
+   "maintenance_basis": "ESTIMATE $1,500-3,000/yr. Not verified.",
+   "notes": "EPA from memory is about 21-24 combined, with the 9-speed better. Fuel for 9k miles on premium is about $1,839. The 9-speed can be rough or glitchy, and electrical problems are common.",
+   "source_urls": []
+  },
+  {
+   "model": "Land Rover LR2",
+   "years": "2008-2015",
+   "engine_drivetrain": "3.2L I6 6AT (08-12) / 2.0T I4 (13-15); AWD",
+   "epa_combined_mpg": 18,
+   "fuel_grade": "Premium 91",
+   "annual_maintenance_repair_usd": 2000,
+   "maintenance_basis": "ESTIMATE $1,500-2,500/yr. Not verified.",
+   "notes": "EPA from memory: 3.2 about 15/22/17; 2.0T about 17/24/20. Fuel for 9k miles on premium is about $2,115-2,488. Weak resale.",
+   "source_urls": []
+  }
+ ],
+ "winter_notes": "All figures in this section are ESTIMATES or general knowledge; none came from sources retrieved this session.\n- Snow: Madison averages roughly 50 inches of snow a year (NWS normal, from memory) and gets frequent sub-zero nights from Dec to Feb. City arterials are plowed and salted well; side streets and apartment lots are the problem.\n- AWD vs FWD: A FWD Toyota or Lexus on real winter tires handles Madison fine. AWD helps you start moving and climb hills but does not help braking or cornering. Tires matter more than drivetrain. RWD cars (IS 250/350 and GS 350 RWD) on all-season tires are poor in snow; only buy one if you also buy winter tires. AWD does matter for resale: AWD RAV4, RX, and Highlander sell faster and for more in Wisconsin, which helps when selling in Aug 2027. AWD costs about 1-2 mpg.\n- Winter tires (estimates): 4 tires only (15-17 inch sedan or hybrid, e.g. Blizzak or X-Ice): about $500-900, plus mount/balance about $80-150 each season change. Tire-and-steel-wheel package (16-17 inch): about $800-1,200. SUV 18-19 inch package (RX, Highlander, Evoque): about $1,100-1,800. Land Rover LR4 or RRS needs 19-inch or larger wheels to clear the brakes: about $1,600-2,500+. Used winter sets on Facebook Marketplace or Craigslist often go for 30-50% of new. A car that already comes with a winter set is worth about $400-800 extra to you. You can resell the set in spring 2027 or sell it with the car.\n- Rust: Wisconsin road salt is harsh. Inspect rocker panels, wheel arches, subframes, brake and fuel lines, and frames on body-on-frame trucks (4Runner, GX 470). Cars that lived in southern states cost more but resell better; ask for a Carfax. Oil-based undercoating (Fluid Film or Krown type) costs about $100-200/yr. Wash the underbody regularly in winter. Pay about $100-200 for a pre-purchase inspection.\n- 12V battery: Cold kills weak batteries. If the battery is older than 4-5 years, replace it right away (about $150-250 for a conventional battery, $250-400 for AGM on Land Rover or some Lexus). Prius and CT 200h 12V auxiliary batteries run about $200-300. Keep jumper cables or a jump pack. A block heater is usually not needed.\n- Hybrid traction battery replacement (estimates): Prius Gen 3 (2010-2015) new OEM about $2,500-3,500 installed, reconditioned about $1,200-2,000. CT 200h (same system) about $2,500-3,800 dealer, $1,500-2,200 reconditioned. ES 300h (2013-2018) about $3,000-4,500 dealer, $2,000-2,500 reconditioned. RX 450h (2010-2015) about $3,500-6,000 dealer, $2,500-3,500 reconditioned. Factory hybrid warranty (8yr/100k on these years) has expired on all of them. A hybrid battery health check (e.g., Dr. Prius app with an OBD dongle, or a shop test) is essential before buying. Cold weather cuts hybrid winter mpg by roughly 15-30%.",
+ "summary": "Fuel (verified): Madison regular was $4.03 on Sept 14, 2026 and $4.46 on Sept 21 (Stacker). The Wisconsin AAA average was $4.34 on Sept 17 and $4.36 on Sept 25. Nationally on Sept 28, regular was $4.48 and premium $5.36, a gap of about $0.89. I found no Madison premium figure; my estimate is about $5.30-5.40. EIA's Sept 9 STEO forecasts US regular at $3.84 for 2026 and $3.35 for 2027, but prices are running well above that path because of Iran and Hormuz. My planning estimate for Oct 2026-Aug 2027 is about $3.80 regular and $4.70 premium.\n\nTooling limit: WebSearch hit its session cap (200/200) after the fuel and ES 350 queries. So the per-model EPA MPG, fuel grades (except the ES 350), RepairPal averages, winter tire prices and battery costs come from memory and general knowledge. They are labeled ESTIMATE or unverified and should be checked on fueleconomy.gov and RepairPal. Only the 2011 ES 350 figures (22 combined, 19/27) and its fuel grade were confirmed by search: 2007-2010 recommends premium but allows 87, and 2011-2012 uses regular.\n\nFuel for 9,000 miles (estimate): Prius about $684; CT 200h about $814; ES 300h or Camry Hybrid about $855; Corolla about $1,100-1,180; Camry 4-cyl about $1,221; RAV4 about $1,315-1,368; 2011-12 ES 350 about $1,555 on regular; RX 350 about $1,630-1,710; IS or GS on premium about $1,840-2,015; GX 470 about $2,820; LR4 or RRS V8 about $3,000-3,250.\n\nMaintenance and repair per year for 10-15 yr old cars (estimate): Corolla, Camry, RAV4, Prius about $500-800. ES, Avalon, Highlander, 4Runner about $600-1,000. RX, IS, GS about $800-1,300. GX 470 about $1,000-1,500. Land Rover about $1,500-4,000+, with single repairs of $1,000-6,000 (air suspension, 5.0 timing chain).\n\nConclusion for a 10.5-month ownership: Land Rovers are the worst value. They cost the most in fuel (premium at about 14 mpg), have the highest repair risk, and depreciate steeply at resale. The best value is a 2011-2012 ES 350 (runs on regular, reliable) or an AWD RAV4 or RX 350 (strong Wisconsin resale). A Camry, Corolla or Prius is the lowest-cost choice. Budget $800-1,500 for winter tires and wheels on any car, and more on a RWD car."
+}

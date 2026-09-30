@@ -1,0 +1,735 @@
+{
+ "summary": "These numbers are ESTIMATES built from published averages. They are not quotes, and real quotes in Madison can vary by 30-50% between insurers.\n\nMETHOD. Price = Madison baseline x vehicle factor (VF) x car-age factor x driver multiplier x coverage factor.\n(1) Madison baseline for full coverage is $1,935/yr: Insure.com, 40-year-old, clean record, 100/300/100 limits, $500 deductible. It is about 5% below the WI average of $2,026. The minimum-coverage baseline is $476/yr: the mean of MoneyGeek Madison $432, Bankrate WI $456, NerdWallet WI $554 and ValuePenguin WI $540, with the state figures scaled by 0.95 for Madison.\n(2) VF = The Zebra's 6-month full-coverage price for the model divided by its national average of $1,162. Results: RAV4 0.74, Highlander 0.80, LR4 0.815, Camry and Corolla 0.82, IS 250 0.85, Prius 0.85, RX 0.885, GX 460 (stand-in for the GX 470) 0.88, ES 0.94, Evoque 1.02, Range Rover Sport 1.24.\n(3) The car-age factor (0.72-0.90) is my own estimate. It rests on MoneyGeek's model-year data (for example, an RX 350 costs $123/mo for a 2018 vs $227 for a 2025) and ValuePenguin's finding that premiums fall about 11-13% for every 5 years of car age.\n(4) Driver multiplier vs a 40-year-old comes from Bankrate's age table (age 22 $4,543, 25 $3,326, 30 $2,877, 40 about $2,697). Profile (a) uses 1.10 / 1.35 / 1.68 for ages 28 / 24 / 22. Profile (b) uses 1.4 / 1.9 / 2.6: the age factor times a surcharge of 1.26 to 1.53 for having no US history. The 1.26 is from Insurify (new international driver pays $236 vs $187 average for full coverage). The 1.53 is from ValuePenguin (someone first licensed at 25 pays 53% more).\n(5) Coverage factor: 0.80 for 50/100/50 with a $1,000 deductible, 0.90 for 100/300/100 with $1,000, 1.00 for 100/300/100 with $500.\n\nTYPICAL ANNUAL PRICE, before discounts.\nProfile (a), full coverage:\n- RAV4 about $1,430, Highlander $1,470, GX 470 $1,560\n- RX 350 $1,620, Camry $1,640, Corolla $1,650\n- Prius $1,700, ES 350 $1,720, LR4 $1,720, IS 250 AWD $1,790\n- Evoque $1,910, Range Rover Sport $2,100\nProfile (a), WI minimum: about $600-670/yr.\nProfile (b): about 1.4x profile (a). Full coverage runs from $2,010 (RAV4) to $2,950 (Range Rover Sport); minimum is about $840-950.\nFor the 10.5 months you'll own the car (Oct to mid-Aug, with a pro-rata refund), multiply by 0.875. Profile (a) full coverage comes to about $1,250-1,840; profile (b) about $1,760-2,580.\n\nTakeaway: the driver profile moves the price much more than the car. Across brands, the gap for profile (a) full coverage is only about $700/yr (RAV4/Highlander cheapest, Range Rover Sport most expensive). A 2010-2014 Lexus ES or RX costs about the same to insure as a Camry.\n\nWI REQUIREMENTS. Liability 25/50/10 plus uninsured motorist 25/50 are mandatory. Underinsured motorist is optional, with at least 50/100 limits if you buy it. Insurers must offer medical payments of at least $1,000, but you may reject it. Wisconsin has no PIP.\n\nFOREIGN LICENSE / INTERNATIONAL STUDENT. WisDOT lets students from countries in the Geneva Convention (or the Inter-American Convention) drive on their home license for up to 1 year. Mainland China is party to neither the 1949 Geneva nor the 1968 Vienna convention, so a PRC license holder should plan to get a WI license. Taiwan, South Korea, France and Germany have reciprocity, which can waive the tests. Insurers that write foreign-license drivers include Progressive (online quote with an IDP), State Farm (accepts them, but by agent only), GEICO, Farmers, Dairyland and Bristol West. Erie agents are reportedly familiar with foreign licenses. I found no published policy for American Family (based in Madison), so ask an agent. USAA is military families only. Expect a no-US-history surcharge.\n\nDISCOUNTS. Good student: up to 25% at State Farm, up to 15% at GEICO, about 7.5% on average at Progressive; usually requires being under 25 with a B average (3.0 GPA). Telematics: State Farm Drive Safe & Save gives up to 30% and never raises the rate; AmFam KnowYourDrive gives up to 15% and doesn't raise it; Progressive Snapshot raises rates for about 20% of drivers. Pay-in-full, paperless and renters bundling give smaller savings; policy-related discounts are typically 5-25%. Shopping around matters a lot: in MoneyGeek's Madison data, GEICO full coverage is $568/yr vs a $1,008 city average.\n\nIS FULL COVERAGE WORTH IT? For a $10-13k car, Wisconsin's deer risk is high:\n- WisDOT counted 17,795 deer crashes in 2025, 792 of them in Dane County (4th in the state).\n- State Farm puts Wisconsin odds at 1 in 62, 3rd-worst in the US, with November, October and December the peak months.\n- Deer claims average about $3,000 (Triple-I) and up to $5,620 in high-risk areas (AAA, 2024). Hitting a deer is covered by comprehensive, not collision.\n\nRecommendation:\n- Always carry comprehensive. It costs roughly 10% of a liability premium (ValuePenguin), about $60-100/yr for profile (a). My rough expected deer loss alone is about 1/62 x $3,000-5,600 = $50-90/yr per car, before theft, hail and glass.\n- Add collision with a $1,000 deductible unless you could absorb losing the whole $10-13k car. This matters especially for profile (b) and for a first Wisconsin winter.\n- Adding comp and collision costs about $780-1,420/yr for (a) and $1,100-2,000/yr for (b), roughly 6-15% of the car's value per year. That is under ValuePenguin's rule of thumb for dropping the coverage (car worth less than about 10x the yearly full-coverage cost).\n- Use liability of at least 50/100/50, preferably 100/300/100, plus UIM. The state minimum's $10k property-damage limit is low.\n\nCANCELLING MID-TERM. Wisconsin rule Ins 6.10(4) says an insurer may refund less than pro rata only if it gave you a separate written notice of a \"substantial penalty,\" and only 10 or more days after that notice. Cancellations the insurer starts, or that happen for nonpayment, must be refunded pro rata. State Farm refunds pro rata (7-14 business days). Progressive is mostly pro rata, with some short-rate cases. GEICO charges no fee outside North Carolina. A short-rate penalty is typically about 10% of the unused premium. Plan: get \"pro-rata\" confirmed in writing, use 6-month terms or monthly payments (or pay in full only once pro rata is confirmed), and cancel effective on the day the title transfers in August 2027.\n\nUncertainty band: roughly ±30%, driven by insurer, credit-based insurance score, exact ZIP and trim. Get 5-6 quotes: GEICO, Progressive, State Farm, American Family, Erie and Travelers (NerdWallet's cheapest WI full coverage, $991/yr).",
+ "estimates": [
+  {
+   "vehicle": "Lexus ES 350 (2010-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1250,
+   "annual_typical_usd": 1720,
+   "annual_high_usd": 2380,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.940 [Zebra ES $190/mo(~$1,140/6mo)/1,162=0.98, blended w/ MoneyGeek ES~RX parity 0.90 -> 0.94] x car-age 0.78 = $1,419; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,248 / $1,724 / $2,383. Typical ~$144/mo, 10.5 mo ~$1,508. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/es-350/"
+  },
+  {
+   "vehicle": "Lexus ES 350 (2010-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus ES 350 (2010-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1590,
+   "annual_typical_usd": 2430,
+   "annual_high_usd": 3690,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.940 [Zebra ES $190/mo(~$1,140/6mo)/1,162=0.98, blended w/ MoneyGeek ES~RX parity 0.90 -> 0.94] x car-age 0.78 = $1,419; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,589 / $2,426 / $3,689. Typical ~$202/mo, 10.5 mo ~$2,123. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/es-350/"
+  },
+  {
+   "vehicle": "Lexus ES 350 (2010-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus RX 350 (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1180,
+   "annual_typical_usd": 1620,
+   "annual_high_usd": 2240,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.885 [Zebra RX $1,028/6mo / 1,162 = 0.885] x car-age 0.78 = $1,335; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,175 / $1,622 / $2,243. Typical ~$135/mo, 10.5 mo ~$1,420. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/rx-350/"
+  },
+  {
+   "vehicle": "Lexus RX 350 (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus RX 350 (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1500,
+   "annual_typical_usd": 2280,
+   "annual_high_usd": 3470,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.885 [Zebra RX $1,028/6mo / 1,162 = 0.885] x car-age 0.78 = $1,335; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,495 / $2,283 / $3,472. Typical ~$190/mo, 10.5 mo ~$1,998. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/rx-350/"
+  },
+  {
+   "vehicle": "Lexus RX 350 (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus IS 250 AWD (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1300,
+   "annual_typical_usd": 1790,
+   "annual_high_usd": 2480,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.847 [Zebra IS 250 $984/1,162 = 0.847] x car-age 0.90 (discontinued model, avg already old years) = $1,475; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,298 / $1,792 / $2,478. Typical ~$149/mo, 10.5 mo ~$1,568. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/is-250/"
+  },
+  {
+   "vehicle": "Lexus IS 250 AWD (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus IS 250 AWD (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1650,
+   "annual_typical_usd": 2520,
+   "annual_high_usd": 3830,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.847 [Zebra IS 250 $984/1,162 = 0.847] x car-age 0.90 (discontinued model, avg already old years) = $1,475; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,652 / $2,522 / $3,834. Typical ~$210/mo, 10.5 mo ~$2,207. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/is-250/"
+  },
+  {
+   "vehicle": "Lexus IS 250 AWD (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus GX 470 (2006-2009)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1130,
+   "annual_typical_usd": 1560,
+   "annual_high_usd": 2150,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.882 [proxy Zebra GX 460 $1,025/1,162 = 0.882; no GX 470 page found] x car-age 0.75 (17-20 yrs old) = $1,280; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,127 / $1,555 / $2,151. Typical ~$130/mo, 10.5 mo ~$1,361. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/gx-460/"
+  },
+  {
+   "vehicle": "Lexus GX 470 (2006-2009)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 550,
+   "annual_typical_usd": 670,
+   "annual_high_usd": 840,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 (large SUV, my estimate) = $500; x driver 1.1/1.35/1.68 = $550 / $675 / $840. Typical ~$56/mo, 10.5 mo ~$590.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Lexus GX 470 (2006-2009)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1430,
+   "annual_typical_usd": 2190,
+   "annual_high_usd": 3330,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.882 [proxy Zebra GX 460 $1,025/1,162 = 0.882] x car-age 0.75 (17-20 yrs old) = $1,280; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,434 / $2,189 / $3,328. Typical ~$182/mo, 10.5 mo ~$1,915. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/lexus/gx-460/"
+  },
+  {
+   "vehicle": "Lexus GX 470 (2006-2009)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 700,
+   "annual_typical_usd": 950,
+   "annual_high_usd": 1300,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 = $500; x driver 1.4/1.9/2.6 = $700 / $950 / $1,299. Typical ~$79/mo, 10.5 mo ~$831.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Camry (2015-2018)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1190,
+   "annual_typical_usd": 1640,
+   "annual_high_usd": 2270,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.823 [Zebra Camry $956/1,162 = 0.823] x car-age 0.85 = $1,353; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,191 / $1,644 / $2,273. Typical ~$137/mo, 10.5 mo ~$1,439. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/camry/"
+  },
+  {
+   "vehicle": "Toyota Camry (2015-2018)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Camry (2015-2018)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1520,
+   "annual_typical_usd": 2310,
+   "annual_high_usd": 3520,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.823 [Zebra Camry $956/1,162 = 0.823] x car-age 0.85 = $1,353; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,516 / $2,314 / $3,518. Typical ~$193/mo, 10.5 mo ~$2,025. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/camry/"
+  },
+  {
+   "vehicle": "Toyota Camry (2015-2018)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Corolla (2016-2019)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1190,
+   "annual_typical_usd": 1650,
+   "annual_high_usd": 2280,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.824 [Zebra Corolla $958/1,162 = 0.824] x car-age 0.85 = $1,356; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,193 / $1,648 / $2,278. Typical ~$137/mo, 10.5 mo ~$1,442. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/corolla/"
+  },
+  {
+   "vehicle": "Toyota Corolla (2016-2019)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Corolla (2016-2019)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1520,
+   "annual_typical_usd": 2320,
+   "annual_high_usd": 3530,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.824 [Zebra Corolla $958/1,162 = 0.824] x car-age 0.85 = $1,356; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,519 / $2,319 / $3,526. Typical ~$193/mo, 10.5 mo ~$2,029. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/corolla/"
+  },
+  {
+   "vehicle": "Toyota Corolla (2016-2019)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Prius (2013-2017)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1230,
+   "annual_typical_usd": 1700,
+   "annual_high_usd": 2350,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.850 [Zebra Prius $988/1,162 = 0.850] x car-age 0.85 = $1,398; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,231 / $1,699 / $2,349. Typical ~$142/mo, 10.5 mo ~$1,487. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/prius/"
+  },
+  {
+   "vehicle": "Toyota Prius (2013-2017)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 490,
+   "annual_typical_usd": 600,
+   "annual_high_usd": 740,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 0.93 (Insurify Prius liability $91 vs $98 national) = $443; x driver 1.1/1.35/1.68 = $487 / $598 / $744. Typical ~$50/mo, 10.5 mo ~$523.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Prius (2013-2017)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1570,
+   "annual_typical_usd": 2390,
+   "annual_high_usd": 3640,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.850 [Zebra Prius $988/1,162 = 0.850] x car-age 0.85 = $1,398; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,566 / $2,391 / $3,636. Typical ~$199/mo, 10.5 mo ~$2,092. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/prius/"
+  },
+  {
+   "vehicle": "Toyota Prius (2013-2017)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 620,
+   "annual_typical_usd": 840,
+   "annual_high_usd": 1150,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 0.93 = $443; x driver 1.4/1.9/2.6 = $620 / $841 / $1,151. Typical ~$70/mo, 10.5 mo ~$736.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota RAV4 (2013-2016)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1030,
+   "annual_typical_usd": 1430,
+   "annual_high_usd": 1970,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.740 [Zebra RAV4 $860/1,162 = 0.740] x car-age 0.82 = $1,174; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,033 / $1,427 / $1,973. Typical ~$119/mo, 10.5 mo ~$1,248. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/rav4/"
+  },
+  {
+   "vehicle": "Toyota RAV4 (2013-2016)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota RAV4 (2013-2016)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1320,
+   "annual_typical_usd": 2010,
+   "annual_high_usd": 3050,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.740 [Zebra RAV4 $860/1,162 = 0.740] x car-age 0.82 = $1,174; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,315 / $2,008 / $3,053. Typical ~$167/mo, 10.5 mo ~$1,757. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/rav4/"
+  },
+  {
+   "vehicle": "Toyota RAV4 (2013-2016)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Highlander (2011-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1070,
+   "annual_typical_usd": 1470,
+   "annual_high_usd": 2040,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.803 [Zebra Highlander $933/1,162 = 0.803] x car-age 0.78 = $1,212; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,066 / $1,472 / $2,036. Typical ~$123/mo, 10.5 mo ~$1,288. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/highlander/"
+  },
+  {
+   "vehicle": "Toyota Highlander (2011-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Toyota Highlander (2011-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1360,
+   "annual_typical_usd": 2070,
+   "annual_high_usd": 3150,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.803 [Zebra Highlander $933/1,162 = 0.803] x car-age 0.78 = $1,212; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,357 / $2,072 / $3,151. Typical ~$173/mo, 10.5 mo ~$1,813. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/toyota/highlander/"
+  },
+  {
+   "vehicle": "Toyota Highlander (2011-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Land Rover LR4 (2011-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1250,
+   "annual_typical_usd": 1720,
+   "annual_high_usd": 2380,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.815 [Zebra LR4 $947/1,162 = 0.815] x car-age 0.90 (model ended 2016) = $1,419; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,249 / $1,724 / $2,384. Typical ~$144/mo, 10.5 mo ~$1,509. Pre-discount. Insurer may surcharge/decline high-repair-cost LR for new drivers.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/lr4/"
+  },
+  {
+   "vehicle": "Land Rover LR4 (2011-2014)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 550,
+   "annual_typical_usd": 670,
+   "annual_high_usd": 840,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 (my estimate) = $500; x driver 1.1/1.35/1.68 = $550 / $675 / $840. Typical ~$56/mo, 10.5 mo ~$590.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Land Rover LR4 (2011-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1590,
+   "annual_typical_usd": 2430,
+   "annual_high_usd": 3690,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 0.815 [Zebra LR4 $947/1,162 = 0.815] x car-age 0.90 (model ended 2016) = $1,419; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,590 / $2,427 / $3,690. Typical ~$202/mo, 10.5 mo ~$2,124. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/lr4/"
+  },
+  {
+   "vehicle": "Land Rover LR4 (2011-2014)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 700,
+   "annual_typical_usd": 950,
+   "annual_high_usd": 1300,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 = $500; x driver 1.4/1.9/2.6 = $700 / $950 / $1,299. Typical ~$79/mo, 10.5 mo ~$831.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Range Rover Sport (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1520,
+   "annual_typical_usd": 2100,
+   "annual_high_usd": 2900,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 1.238 [Zebra RR Sport $1,439/1,162 = 1.238] x car-age 0.72 (avg incl. new $90k+ models) = $1,725; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,518 / $2,096 / $2,899. Typical ~$175/mo, 10.5 mo ~$1,834. Pre-discount. High repair cost -> elevated total-loss risk.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/range-rover-sport/"
+  },
+  {
+   "vehicle": "Range Rover Sport (2010-2013)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 550,
+   "annual_typical_usd": 670,
+   "annual_high_usd": 840,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 = $500; x driver 1.1/1.35/1.68 = $550 / $675 / $840. Typical ~$56/mo, 10.5 mo ~$590.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Range Rover Sport (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1930,
+   "annual_typical_usd": 2950,
+   "annual_high_usd": 4490,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 1.238 [Zebra RR Sport $1,439/1,162 = 1.238] x car-age 0.72 (avg incl. new $90k+ models) = $1,725; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,932 / $2,950 / $4,486. Typical ~$246/mo, 10.5 mo ~$2,582. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/range-rover-sport/"
+  },
+  {
+   "vehicle": "Range Rover Sport (2010-2013)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 700,
+   "annual_typical_usd": 950,
+   "annual_high_usd": 1300,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.05 = $500; x driver 1.4/1.9/2.6 = $700 / $950 / $1,299. Typical ~$79/mo, 10.5 mo ~$831.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Range Rover Evoque (2013-2016)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1390,
+   "annual_typical_usd": 1910,
+   "annual_high_usd": 2650,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 1.017 [Zebra Evoque $1,182/1,162 = 1.017] x car-age 0.80 = $1,575; x driver 1.1/1.35/1.68 x coverage 0.80/0.90/1.00 = $1,386 / $1,913 / $2,645. Typical ~$159/mo, 10.5 mo ~$1,674. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/range-rover-evoque/"
+  },
+  {
+   "vehicle": "Range Rover Evoque (2013-2016)",
+   "driver_profile": "(a) student age 22-28, US license, 3+ yrs clean",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 520,
+   "annual_typical_usd": 640,
+   "annual_high_usd": 800,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.1/1.35/1.68 = $524 / $643 / $800. Typical ~$54/mo, 10.5 mo ~$562.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  },
+  {
+   "vehicle": "Range Rover Evoque (2013-2016)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "Full: 50/100/50-100/300/100 + UM + comp + coll, $500-$1,000 ded",
+   "annual_low_usd": 1760,
+   "annual_typical_usd": 2690,
+   "annual_high_usd": 4090,
+   "basis": "ESTIMATE. $1,935 (Insure.com Madison 40yo full) x VF 1.017 [Zebra Evoque $1,182/1,162 = 1.017] x car-age 0.80 = $1,575; x driver 1.4/1.9/2.6 x coverage 0.80/0.90/1.00 = $1,764 / $2,693 / $4,094. Typical ~$224/mo, 10.5 mo ~$2,356. Pre-discount.",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/land-rover/range-rover-evoque/"
+  },
+  {
+   "vehicle": "Range Rover Evoque (2013-2016)",
+   "driver_profile": "(b) new driver / intl student, foreign or new WI license, no US insurance history",
+   "coverage": "WI minimum: 25/50/10 + UM 25/50",
+   "annual_low_usd": 670,
+   "annual_typical_usd": 900,
+   "annual_high_usd": 1240,
+   "basis": "ESTIMATE. $476 Madison 40yo min base x liability VF 1.0 = $476; x driver 1.4/1.9/2.6 = $666 / $904 / $1,238. Typical ~$75/mo, 10.5 mo ~$791.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/"
+  }
+ ],
+ "facts": [
+  {
+   "item": "Wisconsin minimum liability limits",
+   "value": "25/50/10: $25,000 bodily injury per person, $50,000 per accident, $10,000 property damage",
+   "source_url": "https://wisconsindot.gov/pages/dmv/license-drvs/rcd-crsh-rpt/auto-insurance.aspx",
+   "confidence": "high",
+   "applies_to": "All WI-registered cars"
+  },
+  {
+   "item": "Wisconsin uninsured motorist (UM) requirement",
+   "value": "UM bodily injury is mandatory, at least $25,000 per person and $50,000 per accident",
+   "source_url": "https://oci.wi.gov/Pages/Consumers/PI-233.aspx",
+   "confidence": "high",
+   "applies_to": "All WI policies"
+  },
+  {
+   "item": "Underinsured motorist (UIM) in Wisconsin",
+   "value": "Optional. The insurer must give notice that it is available and you may reject it. If you buy it, limits must be at least 50/100.",
+   "source_url": "https://oci.wi.gov/Pages/Consumers/PI-233.aspx",
+   "confidence": "high",
+   "applies_to": "All WI policies"
+  },
+  {
+   "item": "Medical payments coverage in Wisconsin",
+   "value": "Not mandatory. 2011 Wis. Act 14 reversed the 2009 law that had made $10,000 med pay mandatory. Med pay must now be at least $1,000 per person if provided, and the named insured may reject it.",
+   "source_url": "https://oci.wi.gov/Pages/Regulation/Bulletin20110715Act14.aspx",
+   "confidence": "high",
+   "applies_to": "All WI policies",
+   "notes": "Wisconsin also has no PIP (The Zebra WI laws page)."
+  },
+  {
+   "item": "Madison average full coverage (Insure.com)",
+   "value": "$1,935/yr (about $161/mo). Profile: 40-year-old, clean record, good insurance score, 100/300/100 limits, $500 comp/collision deductible, 10,000 miles/yr, 2025 Quadrant data. This is $91 below the WI average and $578 below the national average.",
+   "source_url": "https://www.insure.com/car-insurance/average-car-insurance-cost-in-madison-wi/",
+   "confidence": "high",
+   "applies_to": "Baseline used for all full-coverage estimates"
+  },
+  {
+   "item": "Madison averages and cheapest insurer (MoneyGeek)",
+   "value": "Minimum coverage averages $432/yr and full coverage $1,008/yr. GEICO is cheapest: $220/yr ($18/mo) minimum and $568/yr ($47/mo) full. For young drivers, Erie is about $50/mo and GEICO about $52/mo. MoneyGeek rates Erie the best overall in Madison.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/best-cheap-car-insurance-madison-wi/",
+   "confidence": "high",
+   "applies_to": "Madison"
+  },
+  {
+   "item": "Madison averages (The Zebra)",
+   "value": "$618 per 6 months (about $103/mo), vs a WI average of $692 and a national average of $880 on the same page. GEICO about $69/mo ($416 per 6 months); USAA $412 per 6 months.",
+   "source_url": "https://www.thezebra.com/auto-insurance/wisconsin-car-insurance/madison-wi-car-insurance/",
+   "confidence": "medium",
+   "notes": "Blends liability and full coverage. Used only to set the Madison/WI ratio of about 0.89."
+  },
+  {
+   "item": "Madison liability-only average (Insurify)",
+   "value": "$59/mo liability-only average; USAA minimum coverage from about $26-29/mo",
+   "source_url": "https://insurify.com/car-insurance/wisconsin/madison/",
+   "confidence": "medium",
+   "applies_to": "Sanity check for the minimum-coverage estimates",
+   "notes": "Built from real shopper quotes, so the driver mix is younger and riskier than a 40-year-old benchmark."
+  },
+  {
+   "item": "Madison young-adult full coverage (Insurance.com)",
+   "value": "Drivers aged 20-24 in Madison pay about $3,173/yr for full coverage, about 1.64x the $1,935 adult average",
+   "source_url": "https://www.insurance.com/auto-insurance/cheapest-car-insurance-in-madison-wi/",
+   "confidence": "medium",
+   "applies_to": "Profile (a) sanity check"
+  },
+  {
+   "item": "Wisconsin statewide averages (several sources)",
+   "value": "Bankrate: $158/mo full, $38/mo minimum (Nov 2025 Quadrant data). NerdWallet: $2,316/yr full, $554/yr minimum; Travelers is cheapest for full coverage at $991/yr. ValuePenguin: about $169/mo full, $45/mo minimum; American Family is cheapest full coverage at $119/mo and Erie is cheapest minimum at $28/mo. The Zebra: $912 per 6 months full. Insurify: $126/mo full, $57/mo minimum.",
+   "source_url": "https://www.bankrate.com/insurance/car/average-cost-of-car-insurance-in-wisconsin/",
+   "confidence": "high",
+   "notes": "Other figures from nerdwallet.com/insurance/auto/cheap-car-insurance-wisconsin, valuepenguin.com/best-cheap-car-insurance-wisconsin, and insurify.com/car-insurance/wisconsin/average-cost/"
+  },
+  {
+   "item": "National average premiums, Sept 2026",
+   "value": "Insurify: $187/mo full coverage, $98/mo liability. The Zebra: $1,162 per 6 months ($194/mo) for full coverage at 50/100/50 with a $500 deductible.",
+   "source_url": "https://insurify.com/car-insurance/news/average-car-insurance-rates-september-2026/",
+   "confidence": "high",
+   "notes": "The Zebra's $1,162 is the denominator for the vehicle factors (thezebra.com/auto-insurance/how-to-shop/average-auto-insurance/)."
+  },
+  {
+   "item": "Full-coverage premium by age (Bankrate, national)",
+   "value": "Age 22: $4,543/yr. Age 23: $3,937. Age 25: $3,326. Age 30: $2,877. Age 40: about $2,687-2,707 (adult average $2,697). Relative to a 40-year-old: 22 = 1.68x, 23 = 1.46x, 25 = 1.23x, 30 = 1.07x.",
+   "source_url": "https://www.bankrate.com/insurance/car/auto-insurance-rates-by-age/",
+   "confidence": "high",
+   "applies_to": "Driver multipliers"
+  },
+  {
+   "item": "Surcharge for a newly licensed adult",
+   "value": "Someone first licensed and insured at age 25 pays 53% more for full coverage than a 25-year-old who has been licensed since 16",
+   "source_url": "https://www.valuepenguin.com/25-year-old-car-insurance",
+   "confidence": "medium",
+   "applies_to": "Profile (b)"
+  },
+  {
+   "item": "Cost for a new international driver (Insurify)",
+   "value": "A new international driver with no US history pays about $124/mo for liability and $236/mo for full coverage, vs national averages of $98 and $187 (about +26%). Insurer may rate you as 'newly insured'.",
+   "source_url": "https://insurify.com/car-insurance/driver/international-students/",
+   "confidence": "medium",
+   "applies_to": "Profile (b)"
+  },
+  {
+   "item": "Effect of a coverage lapse or no prior insurance",
+   "value": "A lapse of 30 days or less raised rates about 8% on average, and longer lapses up to about 35%. Having driving history but no insurance history is treated as a risk. Farmers will not write a driver without 6 months of continuous prior coverage.",
+   "source_url": "https://www.valuepenguin.com/how-does-lapse-car-insurance-coverage-affect-rates",
+   "confidence": "medium",
+   "applies_to": "Profile (b)",
+   "notes": "Search summaries blended The Zebra, ValuePenguin and Bankrate lapse pages, so the attribution is approximate."
+  },
+  {
+   "item": "Model-level full-coverage averages (The Zebra, 6-month policy, national)",
+   "value": "Camry $956; Corolla $958; Prius $988; RAV4 $860; Highlander $933; Lexus ES 350 about $190/mo; RX 350 $1,028; IS 250 $984; GX 460 $1,025 (no GX 470 page); LR4 $947; Range Rover Sport $1,439 ($240/mo); Evoque $1,182 ($197/mo)",
+   "source_url": "https://www.thezebra.com/auto-insurance/vehicles/",
+   "confidence": "medium",
+   "applies_to": "Vehicle factors",
+   "notes": "These are averages across the model's years and weighted toward newer ones, so older cars cost less. That is why I applied a car-age factor."
+  },
+  {
+   "item": "Model-year evidence (MoneyGeek)",
+   "value": "Lexus ES: $189/mo full, $97/mo minimum on average; older years from about $61/mo. Lexus RX: $186/mo full, $96/mo minimum; full coverage is $123/mo for a 2018 vs $227/mo for a 2025, and older-year minimum is about $63/mo. Highlander: about $74/mo for older years vs $238 for a 2025.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/lexus-rx-insurance/",
+   "confidence": "medium",
+   "applies_to": "Car-age factor",
+   "notes": "Also moneygeek.com/insurance/auto/lexus-es-insurance/ and /toyota-highlander-insurance/. Tables for each individual 2010-2014 year were not visible."
+  },
+  {
+   "item": "Model-level averages (Insurify)",
+   "value": "Lexus ES 350: $108/mo liability, $203/mo full. Corolla: $110 / $219. Prius: $91 / $171. Highlander Hybrid: $99 / $187. The Camry is on the list of most-stolen vehicles.",
+   "source_url": "https://insurify.com/car-insurance/vehicle/toyota/",
+   "confidence": "medium",
+   "applies_to": "Liability vehicle factors (Prius 0.93)"
+  },
+  {
+   "item": "Land Rover LR4 by model year",
+   "value": "Averages about $190/mo full coverage across 7 model years; 2010 is cheapest at about $159/mo and 2016 most expensive at about $225/mo",
+   "source_url": "https://www.moneygeek.com/insurance/auto/land-rover-car-insurance/",
+   "confidence": "low",
+   "notes": "The search summary did not make clear which site (MoneyGeek or Insuraviz) published this breakdown."
+  },
+  {
+   "item": "Wisconsin rule for driving on a foreign license",
+   "value": "Students from countries party to the Geneva Convention (or the Inter-American convention) may drive on a valid home license for up to 1 year; an IDP or English translation is advised. Students from countries party to neither 'may be required to obtain a driver license' on arrival.",
+   "source_url": "https://www.wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/foreign.aspx",
+   "confidence": "high",
+   "applies_to": "Profile (b)"
+  },
+  {
+   "item": "Mainland China license status",
+   "value": "Mainland China is not party to the 1949 Geneva or 1968 Vienna road-traffic conventions and cannot issue an official IDP. A PRC license holder therefore likely cannot rely on the WI 1-year rule and should get a WI license (knowledge and road tests).",
+   "source_url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+   "confidence": "medium",
+   "applies_to": "Profile (b), Chinese students",
+   "notes": "Applying this to WI is my inference. Confirm with UW ISS (iss.wisc.edu/students/current-students/drivers-license/)."
+  },
+  {
+   "item": "Wisconsin license reciprocity",
+   "value": "License holders from France, Germany, South Korea and Taiwan may have the WI knowledge and skills tests waived",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/license-drvs/how-to-apply/dl-reciprocity.aspx",
+   "confidence": "high",
+   "applies_to": "Profile (b)"
+  },
+  {
+   "item": "Insurers that write foreign-license drivers",
+   "value": "Progressive: online quotes with an IDP. State Farm: accepts foreign licenses but quotes only by phone or agent. GEICO, Farmers, Dairyland and Bristol West also write them. Erie agents are reportedly familiar, but availability varies. American Family: no published policy found, so ask a Madison agent. USAA: military families only. Most add a surcharge because they can't verify your driving history.",
+   "source_url": "https://www.policygenius.com/auto-insurance/best-car-insurance-for-foreign-drivers/",
+   "confidence": "medium",
+   "applies_to": "Profile (b)",
+   "notes": "Also progressive.com/answers/international-drivers-license-car-insurance/, statefarm.com/simple-insights/auto-and-vehicles/auto-insurance-foreign-drivers, insurify.com/car-insurance/driver/international-students/"
+  },
+  {
+   "item": "Full-coverage cost for international drivers by company",
+   "value": "About $93/mo with State Farm, $102/mo with Progressive and $122/mo with Farmers; State Farm is cheapest for international drivers in 35 states",
+   "source_url": "https://www.moneygeek.com/insurance/auto/car-insurance-for-foreign-drivers-in-the-usa/",
+   "confidence": "low",
+   "notes": "The search summary blended Insurify and MoneyGeek, so the attribution and profile are uncertain."
+  },
+  {
+   "item": "Good student discount",
+   "value": "State Farm up to 25%, GEICO up to 15%, Progressive about 7.5% on average. Usually requires age under 25 and a B average or 3.0 GPA. Saves about $148-780/yr for drivers aged 16-25. International students with a 3.0+ GPA can qualify.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/good-student-discounts/",
+   "confidence": "medium",
+   "applies_to": "Profile (a) under 25; profile (b) under 25"
+  },
+  {
+   "item": "Telematics discounts",
+   "value": "State Farm Drive Safe & Save: up to 30%, and the rate can only go down. American Family KnowYourDrive: up to 15%, no increase for poor scores. Progressive Snapshot: about 20% of drivers see a rate increase.",
+   "source_url": "https://insurify.com/car-insurance/companies/state-farm/drive-safe-and-save/",
+   "confidence": "medium",
+   "notes": "AmFam and Snapshot details from compare.com/clearsurance and ValuePenguin Snapshot review"
+  },
+  {
+   "item": "Pay-in-full, paperless and other policy discounts",
+   "value": "Policy-related discounts are typically 5-25% combined. At Progressive, pay-in-full and autopay discounts can't be combined. Exact percentages were not published.",
+   "source_url": "https://www.moneygeek.com/insurance/auto/car-insurance-discounts/",
+   "confidence": "medium"
+  },
+  {
+   "item": "Savings from a higher deductible",
+   "value": "Raising the comp/collision deductible from $500 to $1,000 saves about 10-13% of a full-coverage premium (about $188-269/yr nationally)",
+   "source_url": "https://www.valuepenguin.com/how-do-deductibles-affect-car-insurance-premiums",
+   "confidence": "medium"
+  },
+  {
+   "item": "Cost of higher liability limits",
+   "value": "Liability-only averages $829/yr at 50/100/50 vs $1,102/yr at 100/300/100 nationally (+$273/yr, +33%)",
+   "source_url": "https://www.carinsurance.com/liability-vs-full-coverage-car-insurance/",
+   "confidence": "medium"
+  },
+  {
+   "item": "Wisconsin deer crashes, 2025 (WisDOT)",
+   "value": "17,795 deer crashes in 2025 (preliminary), causing 6 deaths and 720 injuries. Dane County had 792, ranking 4th in the state.",
+   "source_url": "https://wisconsindot.gov/Pages/about-wisdot/newsroom/news-rel/050626-deer-crashes.aspx",
+   "confidence": "high",
+   "notes": "Dane County figure from channel3000.com"
+  },
+  {
+   "item": "Odds of an animal collision in Wisconsin (State Farm, Jul 2025-Jun 2026)",
+   "value": "1 in 62, 3rd-highest in the US after West Virginia (1 in 46) and Montana (1 in 54). National odds are 1 in 145. Peak months are November, October and December.",
+   "source_url": "https://www.carriermanagement.com/news/2026/09/28/292333.htm",
+   "confidence": "high",
+   "applies_to": "Full-coverage decision"
+  },
+  {
+   "item": "Cost of a deer-collision claim",
+   "value": "Triple-I puts the average at about $3,000; AAA East Central reported $5,620 in high-risk areas in 2024. Animal strikes are paid under comprehensive, not collision. My rough estimate of the expected yearly deer loss per WI car is 1/62 x $3,000-5,620 = about $50-90.",
+   "source_url": "https://www.iii.org/fact-statistic/facts-statistics-deer-vehicle-collisions",
+   "confidence": "medium"
+  },
+  {
+   "item": "When full coverage stops being worth it",
+   "value": "Consider dropping comp/collision when the car is worth less than about 10x the yearly full-coverage cost, or 4-6 years of comp/collision premium (typically cars 8-12 years old worth $5-10k). Comprehensive costs about 10% as much as a liability-only policy; collision costs about as much as liability-only.",
+   "source_url": "https://www.valuepenguin.com/how-cost-of-car-insurance-changes-with-age-of-car",
+   "confidence": "medium",
+   "applies_to": "$10-13k car held for 10.5 months"
+  },
+  {
+   "item": "Wisconsin rule on refunds when you cancel (Wis. Admin. Code Ins 6.10(4))",
+   "value": "An insurer may refund less than the pro-rata unearned premium only if it gave a separate written notice that you may pay a 'substantial penalty' for cancelling early, and only 10 or more days after that notice. Refunds must be pro rata when the insurer cancels or cancels for nonpayment.",
+   "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/ins/6/10/4",
+   "confidence": "high",
+   "applies_to": "Cancelling when you sell in Aug 2027"
+  },
+  {
+   "item": "Carrier cancellation practices",
+   "value": "State Farm: no fee, pro-rata refund within 7-14 business days. Progressive: no flat fee and mostly pro-rata, but some mid-term cancellations use short-rate. GEICO: no fee except short-rate in North Carolina. A short-rate penalty is usually about 10% of the unused premium.",
+   "source_url": "https://www.bankrate.com/insurance/car/get-refund-cancel-car-insurance/",
+   "confidence": "medium",
+   "notes": "Also insurify.com/car-insurance/companies/geico/cancel-geico/, moneygeek.com cancel pages, progressive.com/answers/refund-on-car-insurance/"
+  }
+ ]
+}

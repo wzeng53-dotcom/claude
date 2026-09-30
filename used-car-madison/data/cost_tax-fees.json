@@ -1,0 +1,333 @@
+{
+ "summary": "These are the government and dealer transaction costs for a City of Madison / Dane County resident who buys a used car in Oct 2026 and sells it in Aug 2027. All figures come from WebSearch result pages and snippets. No page could be opened directly, so a few numbers rest on search summaries, and the confidence field shows which.\n\nGovernment costs at purchase:\n- Sales/use tax is 5.5% (5% state + 0.5% Dane County). Madison has no city sales tax.\n- For a vehicle, the county and city tax follows where the car is customarily kept, not where it is bought. A Dane resident buying from a Milwaukee dealer still pays 5.5%, not Milwaukee's 7.9%.\n- Title fee: $214.50, raised $50 on Oct 1, 2025 under 2025 Act 15.\n- Automobile registration: $85 per year, unchanged by Act 15. Only heavy-truck fees rose 10%.\n- City of Madison wheel tax: $40. Dane County wheel tax: $40 in 2026, up from $28. Sources give its start date as either Jan 1 or May 1, 2026; both are before an Oct 2026 purchase.\n- Hybrid surcharge: +$75 per year. Battery EV surcharge: +$175 per year.\n- New plates: $6 per plate ($12 a set), which WisDOT began collecting Apr 13, 2026. Moving your own existing plates to another car is free.\n- Smaller fees: $5 counter fee when done in person at DMV, $10 loan (lien) filing fee, $3 temporary plate for a private sale.\n- Annual state + local registration for a gas car kept in Madison: $165 ($85 + $40 + $40). Hybrid: $240.\n\nAt resale in Aug 2027:\n- The registration is not refunded or prorated. The seller keeps the plates and can move them to another car of the same type.\n- The seller signs the title (odometer reading and selling price) and gives the buyer any lien release.\n- In a sale to another private individual, the seller must file a Seller Notify report within 30 days. This is not required when selling to a dealer. No seller fee was found.\n- The buyer pays the next title fee.\n\nDealer fees:\n- Wisconsin has no cap on the dealer \"service fee\" (doc fee). The contract must carry a disclosure that the fee is not required by law and must be reasonable. Per the search summaries, once disclosed it can be reduced but not raised.\n- Amounts found: average $438 (range $249-$782, CarWhere) and $295-~$500 (FOX6). Madison area: Smart Toyota $299, Zimbrick Honda $399, Bergstrom Lexus $399, Kunes $499.\n- On taxability, WI DOR Publication 202 (per its summaries): fees for inspections and forms under Trans 139.05(8) are taxable, while a fee for electronic title/registration filing is not.\n- Dealers may also charge an electronic processing fee of up to $38 (raised from $19.50 on Oct 1, 2024).\n- A Wisconsin dealer must give a WI resident a temporary plate free.\n- Trade-in credit applies only when the trade-in is part of the same dealer transaction. A private sale gives no trade-in credit.\n\nBuying in Illinois:\n- Illinois treats Wisconsin as a reciprocal state. An Illinois dealer collects no Illinois tax: it files ST-556 with the nonresident exemption (Section 5 Box A), gets a signed ST-588, and keeps a copy of your out-of-state driver's license.\n- You then pay Wisconsin's 5.5% plus the WisDOT fees when you title the car in Wisconsin. Watch out: if you have no US or Wisconsin driver's license, proving nonresidency may be an issue.\n- Illinois doc fee cap for 2026: $377.63 (CPI-indexed from $300).\n- Illinois private seller: the RUT-50 form is for Illinois residents, so you pay Wisconsin use tax at WisDOT. Wisconsin credits sales tax paid to another state up to the Wisconsin amount. The Illinois seller keeps the plates.\n- To drive home: an Illinois 7/30-day permit ($10 at SOS offices) or dealer drive-away permit, or a Wisconsin temporary plate printed after applying online through eMV Public. Wisconsin plates or a temporary plate must be displayed within 2 business days.\n\nInspections:\n- Dane County has no emissions testing. It applies only in Kenosha, Milwaukee, Ozaukee, Racine, Sheboygan, Washington and Waukesha counties, and the test is free.\n- Wisconsin has no periodic safety inspection.\n- Pre-purchase inspection: generic ranges $100-150 (Consumer Reports, cited in search results) and $110-250; Lemon Squad mobile inspection $220. No exact Madison shop prices were found.\n- Carfax: $44.99 for 1, $64.99 for 3, $99.99 for 5 (a few sources say $79.99 for 3). AutoCheck: about $24.99-$29.99 single, $49.99 for 25 reports used within 21 days.\n- NMVTIS reports cost about $3.49-$12.99 (VinAudit $9.99). NICB VINCheck is free.\n\nEstimated one-time costs for a $12,000 car, gasoline (my own arithmetic, not a quote):\n- Madison dealer: tax about $676 on $12,000 plus a $299 taxable fee, + $214.50 title + $85 registration + $80 wheel taxes + $12 plates + $299 service fee + up to $38 processing ≈ $1,400.\n- Private party: $660 tax + $214.50 + $85 + $80 + $12 + $3 temporary plate ≈ $1,055.\n- A hybrid adds $75.\n\nUnresolved:\n- The exact Dane County $40 start date.\n- Status of SB 467, the wheel-tax referendum bill. It passed the Senate on Jan 21, 2026; whether it became law was not found. Existing wheel taxes would get 18 months to win a referendum, so it would not change a registration made in Oct 2026.\n- Whether an Illinois doc fee is counted in Wisconsin's taxable price.",
+ "facts": [
+  {
+   "item": "Wisconsin state sales/use tax rate on motor vehicles",
+   "value": "5.0% (unchanged in 2026)",
+   "applies_to": "All WI purchases (dealer and private party) by a WI resident",
+   "source_url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+   "confidence": "high",
+   "notes": "Also confirmed by Avalara/SalesTaxHandbook 2026 Dane County pages."
+  },
+  {
+   "item": "Dane County sales tax rate",
+   "value": "0.5% (combined 5.5% for Madison)",
+   "applies_to": "Vehicles customarily kept in Dane County",
+   "source_url": "https://www.avalara.com/taxrates/en/state-rates/wisconsin/counties/dane-county.html",
+   "confidence": "high",
+   "notes": "SalesTaxHandbook also shows 5.5% for Dane County in 2026 (https://www.salestaxhandbook.com/wisconsin/rates/dane-county). No rate change for Dane County was found for 2025-2026."
+  },
+  {
+   "item": "City of Madison sales tax",
+   "value": "None (0%). Madison combined rate is 5.5%.",
+   "applies_to": "City of Madison",
+   "source_url": "https://www.avalara.com/us/en/taxrates/state-rates/wisconsin/cities/madison.html",
+   "confidence": "high",
+   "notes": "Only the City of Milwaukee has a city sales tax (2%, from 2024). Milwaukee County rose to 0.9% on 1/1/2024."
+  },
+  {
+   "item": "Which county/city tax applies to a vehicle",
+   "value": "Tax follows the county/city where the vehicle is customarily kept, not the dealer's location",
+   "applies_to": "A Dane County resident buying from a dealer in Milwaukee or elsewhere in WI pays 5.5%, not Milwaukee's 7.9%",
+   "source_url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-county.aspx",
+   "confidence": "high",
+   "notes": "The dealer must collect the county/city tax for the location where the car will be kept. In a private sale the buyer owes the county tax if none was previously paid (DOR Fact Sheet 2113: https://www.revenue.wi.gov/DOR%20Publications/2113usedvehicles.pdf)."
+  },
+  {
+   "item": "How tax is paid: dealer vs private-party purchase in WI",
+   "value": "Dealer: the dealer collects 5.5% and remits it. Private party: the buyer pays the tax to WisDOT with the title application (MV1 / eMV Public), based on the reported purchase price.",
+   "applies_to": "Madison buyer",
+   "source_url": "https://www.revenue.wi.gov/DOR%20Publications/2113usedvehicles.pdf",
+   "confidence": "high",
+   "notes": "A private individual selling a personal-use car does not collect tax; the buyer pays at titling. If the price is under-reported or questionable, WI DOR may contact the buyer for tax due (https://wisconsindot.gov/Pages/online-srvcs/title-vehicle/faqs-purchase-price.aspx)."
+  },
+  {
+   "item": "Trade-in credit rule (WI)",
+   "value": "A trade-in taken in the same transaction by a dealer reduces the taxable price. Selling your old car privately and using the cash as a down payment gives no credit.",
+   "applies_to": "Dealer purchases with trade-in",
+   "source_url": "https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf",
+   "confidence": "high",
+   "notes": "Minor relevance: the buyer likely has no trade-in in 2026, and in Aug 2027 is exiting rather than trading."
+  },
+  {
+   "item": "WI title fee",
+   "value": "$214.50 ($207 title fee + $7.50 supplemental), up from $164.50 on Oct 1, 2025 (2025 Wisconsin Act 15)",
+   "applies_to": "Buyer, on every ownership transfer (dealer or private)",
+   "source_url": "https://docs.legis.wisconsin.gov/misc/lfb/budget/2025_27_biennial_budget/285_state_tax_and_fee_modifications_included_in_2025_wisconsin_act_15_7_29_25",
+   "confidence": "high",
+   "notes": "Also shown on WisDOT MV1 (10/2025) fee list: https://wisconsindot.gov/Documents/formdocs/mv1.pdf"
+  },
+  {
+   "item": "WI annual automobile registration fee",
+   "value": "$85/year (not raised by Act 15; Act 15 raised only truck/heavy-vehicle fees >6,000 lb by 10%)",
+   "applies_to": "Gasoline passenger car",
+   "source_url": "https://wisconsindot.gov/Documents/formdocs/mv1.pdf",
+   "confidence": "high",
+   "notes": "One search summary claimed $93.50; LFB/Act 15 summaries and multiple 2026 calculators show $85 unchanged, and $93.50 appears to be $85 plus plates. LFB summary: https://docs.legis.wisconsin.gov/misc/lfb/budget/2025_27_biennial_budget/285_state_tax_and_fee_modifications_included_in_2025_wisconsin_act_15_7_29_25"
+  },
+  {
+   "item": "WI hybrid-electric registration surcharge",
+   "value": "+$75/year (total $160/yr state before wheel taxes)",
+   "applies_to": "Hybrids incl. Prius, Camry Hybrid, Lexus RX450h/ES300h/CT200h, PHEVs",
+   "source_url": "https://docs.legis.wisconsin.gov/document/statutes/341.255",
+   "confidence": "high",
+   "notes": "Statute 341.255: $75 surcharge for automobile hybrid-electric vehicles."
+  },
+  {
+   "item": "WI battery-electric (non-hybrid EV) surcharge",
+   "value": "+$175/year ($100 + $75 added in 2023), total $260/yr state",
+   "applies_to": "Full EVs",
+   "source_url": "https://docs.legis.wisconsin.gov/document/statutes/341.255",
+   "confidence": "high",
+   "notes": "Also https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/fuelfee.aspx"
+  },
+  {
+   "item": "City of Madison wheel tax (municipal vehicle registration fee)",
+   "value": "$40/year per vehicle (in effect since Feb 1, 2020; no 2026 increase found)",
+   "applies_to": "Vehicles customarily kept in the City of Madison",
+   "source_url": "https://www.cityofmadison.com/transportation/initiatives/vehicle-registration-fee",
+   "confidence": "high",
+   "notes": "Collected by WisDOT with registration. The WisDOT wheel-tax list also shows Madison $40: https://wisconsindot.gov/pages/dmv/vehicles/title-plates/wheeltax.aspx"
+  },
+  {
+   "item": "Dane County wheel tax",
+   "value": "$40/year in 2026 (raised from $28 in the 2026 county budget)",
+   "applies_to": "All vehicles kept in Dane County, on top of the city wheel tax",
+   "source_url": "https://www.wmtv15news.com/2025/12/10/dane-county-community-faces-fee-increases-vehicle-registration-airport-parking-2026/",
+   "confidence": "medium",
+   "notes": "The $40 amount is solid. The effective date is inconsistent across sources: WKOW said a Jan 1, 2026 start if approved (https://www.wkow.com/news/top-stories/vehicle-registration-fee-other-dane-county-fees-could-go-up-in-2026/article_2ecc98fe-55b8-419e-a901-4e9a6b8f2c75.html), while calculator sites say $28 through Apr 30, 2026 and $40 from May 1, 2026. Either way it is $40 for an Oct 2026 registration."
+  },
+  {
+   "item": "Total annual registration for a car kept in the City of Madison (Oct 2026)",
+   "value": "Gas: $85 + $40 city + $40 county = $165. Hybrid: $240. EV: $340.",
+   "applies_to": "One registration period (12 months), covering Oct 2026 to Aug 2027 with no renewal needed",
+   "source_url": "https://wisconsindot.gov/pages/dmv/vehicles/title-plates/wheeltax.aspx",
+   "confidence": "medium",
+   "notes": "Derived by adding the sourced components above. Before the county increase, Madison's total was $153 ($85+$40+$28)."
+  },
+  {
+   "item": "New license plate issuance fee",
+   "value": "$6 per plate ($12 per set of two) for newly issued, non-replacement plates; WisDOT began collecting Apr 13, 2026",
+   "applies_to": "A buyer with no existing WI plates to transfer",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/frms-pubs/Legislation-Affecting-DMV.aspx",
+   "confidence": "medium",
+   "notes": "Created in Act 15 sec. 329. One legislative text references an Oct 1, 2026 start; WisDOT says collection began Apr 13, 2026. Either way it applies in Oct 2026. The replacement plate fee rose from $4 to $6. LFB paper 776: https://docs.legis.wisconsin.gov/misc/lfb/budget/2025_27_biennial_budget/302_budget_papers/776_transportation_motor_vehicles_issuance_of_license_plates.pdf"
+  },
+  {
+   "item": "DMV counter service fee",
+   "value": "$5",
+   "applies_to": "Transactions done in person at a WI DMV Customer Service Center (e.g., private-sale titling or a temp plate at the counter)",
+   "source_url": "https://wisconsindot.gov/Documents/formdocs/mv1.pdf",
+   "confidence": "high",
+   "notes": "Avoidable by applying online via eMV Public."
+  },
+  {
+   "item": "Loan (lien) filing fee",
+   "value": "$10 per loan",
+   "applies_to": "Buyers who finance the car",
+   "source_url": "https://wisconsindot.gov/Documents/formdocs/mv1.pdf",
+   "confidence": "high",
+   "notes": "Lien release is included."
+  },
+  {
+   "item": "WI temporary plate fee",
+   "value": "$3 (by mail/online). A WI dealer must issue a temp plate free to a WI resident buying a car of 8,000 lb or less.",
+   "applies_to": "Private-sale buyer (online eMV Public application prints a temp plate); dealer buyers pay $0",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/nolaf.aspx",
+   "confidence": "high",
+   "notes": "Statute 341.09(2m): https://docs.legis.wisconsin.gov/statutes/statutes/341/i/09/2m/a/1 . A $5 counter fee applies if the temp plate is obtained in person. WI plates or a temp plate must be displayed within 2 business days of purchase."
+  },
+  {
+   "item": "Private-sale titling online (eMV Public)",
+   "value": "Buyer can apply for WI title/registration online (WI or out-of-state title), pay tax and fees, transfer existing plates, and print a temp plate; the eApplication receipt is then mailed to DMV with the title",
+   "applies_to": "Private-party purchases, incl. from Illinois sellers",
+   "source_url": "https://wisconsindot.gov/pages/online-srvcs/title-vehicle/emvpublicdefault.aspx",
+   "confidence": "medium",
+   "notes": "The search summary was slightly contradictory about temp plates through eMV Public; the WisDOT temp-plate page says an online title/registration application prints a temp plate."
+  },
+  {
+   "item": "Registration refund when selling",
+   "value": "No refund or proration for annual auto registration once the registration period has begun",
+   "applies_to": "Selling in Aug 2027: the unused ~2 months of registration is lost",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/refund.aspx",
+   "confidence": "high",
+   "notes": "A refund (form MV2030) is possible only if requested before the registration period begins."
+  },
+  {
+   "item": "Plate transfer",
+   "value": "Seller keeps the plates and can transfer valid auto plates to another auto in their name; the MV1 Online Application Guide says there is no fee for transferring your own plates",
+   "applies_to": "Seller in Aug 2027 (useful only if buying another WI car)",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/MV1-Online-Application-Guide.aspx",
+   "confidence": "medium",
+   "notes": "Plate-to-transfer restrictions: https://wisconsindot.gov/Pages/online-srvcs/other-servs/plate-to-transfer-restrictions.aspx . Plates can be cancelled with MV2514 (no refund)."
+  },
+  {
+   "item": "Seller duties in WI at sale",
+   "value": "Sign the title over. Enter the odometer reading (MY2011+ vehicles) and brand disclosure, the selling price, and the buyer's name and address. Remove the plates. Give the buyer a lien release if applicable. For a sale to another private individual, file the online Seller Notification within 30 days (not required when selling to a dealer).",
+   "applies_to": "Seller in Aug 2027",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/sll-jnk-vhcl/sellyourvehicle.aspx",
+   "confidence": "high",
+   "notes": "Seller Notify: https://wisconsindot.gov/Pages/online-srvcs/other-servs/seller-notify.aspx (or form MV2870). No seller-side government fee was found; the buyer pays the title fee."
+  },
+  {
+   "item": "WI dealer service (doc) fee: legal rule",
+   "value": "No dollar cap. The fee must be 'reasonable' and disclosed on the contract with the text 'A service fee is not required by law, but may be charged ... and must be reasonable'. The dealer must give a written list of included services on request, and WisDOT may audit.",
+   "applies_to": "WI dealer purchases",
+   "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/139/06",
+   "confidence": "high",
+   "notes": "Trans 139.05(8)(b) / 139.06(1)(g). Per the search summaries, the disclosed fee may not be increased but may be reduced, so it is negotiable downward: https://docs.legis.wisconsin.gov/code/admin_code/trans/139/05/8/b"
+  },
+  {
+   "item": "WI dealer service fee: typical amounts",
+   "value": "Average $438 (range $249-$782, from 36 buyer deal sheets, CarWhere). FOX6: $295 to nearly $500, with reports of $199-$700.",
+   "applies_to": "WI dealers 2025-2026",
+   "source_url": "https://www.carwhere.com/dealers/wi/fees",
+   "confidence": "medium",
+   "notes": "FOX6: https://www.fox6now.com/news/wisconsin-car-dealer-service-fees"
+  },
+  {
+   "item": "Madison-area dealer service fees seen in listings",
+   "value": "Smart Motors Toyota $299. Zimbrick Honda $399. Bergstrom Lexus of Madison (Middleton) $399. Kunes Mitsubishi of Madison $499 (per search snippets).",
+   "applies_to": "Madison-area dealers",
+   "source_url": "https://caredge.com/dealer/bergstrom-lexus-of-madison--wi-middleton",
+   "confidence": "medium",
+   "notes": "Smart Toyota: https://www.smarttoyota.com/used-lexus-madison-wi ; Zimbrick: https://www.zimbrickhonda.com/searchused.aspx ; Kunes: https://www.kbb.com/dealers/orfordville-wi/72845909/kunes-mitsubishi-of-madison . These come from search-result snippets, not verified on the pages."
+  },
+  {
+   "item": "Is the WI dealer service fee taxable?",
+   "value": "Service fees for sales-related inspections and forms required by law (Trans 139.05(8)) are part of the taxable sales price (5.5%). A fee for submitting the electronic title/registration application to WisDOT is not taxable.",
+   "applies_to": "WI dealer purchases",
+   "source_url": "https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf",
+   "confidence": "medium",
+   "notes": "Based on search summaries of DOR Publication 202; the actual taxable split depends on how the dealer itemizes."
+  },
+  {
+   "item": "WI dealer electronic title/registration processing fee",
+   "value": "Up to $38 (the permitted maximum rose from $19.50 on Oct 1, 2024). Optional for dealers.",
+   "applies_to": "WI dealer purchases where the dealer files the title/plates electronically",
+   "source_url": "https://wisconsindot.gov/Documents/dmv/dlr-agents/tips-tls-dlr/pp-oct-24.pdf",
+   "confidence": "medium",
+   "notes": "Dealer Dynamics describes it as separate from the service fee; Trans 141 text suggests it can be part of the service fee. Not taxable per DOR Pub 202. https://dealerdynamics.com/upcoming-changes-to-wisconsin-dmv-electronic-processing-fees/"
+  },
+  {
+   "item": "WI dealer used-car disclosure",
+   "value": "WI dealers must inspect used cars and disclose findings on the Wisconsin Buyers Guide before contract",
+   "applies_to": "WI dealer purchases (not private sales, and not IL dealers)",
+   "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/trans/139/04/1",
+   "confidence": "high",
+   "notes": "A dealer that fails to fix an item it improperly reported and could have found with reasonable care commits an unfair practice if the buyer notifies it in time. This is a consumer protection that private and out-of-state purchases lack."
+  },
+  {
+   "item": "Illinois dealer doc fee cap 2026",
+   "value": "$377.63 maximum (CPI-indexed annually from the $300 base set in 2020; 815 ILCS 375/11.1)",
+   "applies_to": "Any purchase from an Illinois dealer, incl. by a WI resident",
+   "source_url": "https://illinoisdealers.com/significant-dealer-issues/",
+   "confidence": "medium",
+   "notes": "Also https://www.linkedin.com/pulse/37763-doc-fee-what-every-illinois-dealer-needs-know-2026-david-rozek-y1apc . Most Chicago-area dealers charge at or near the cap."
+  },
+  {
+   "item": "IL dealer selling to a WI resident: which tax",
+   "value": "Wisconsin is a reciprocal state, so the IL dealer collects no Illinois tax. It files ST-556 with the nonresident exemption (Section 5, Box A) and remits no tax. The buyer then pays WI 5.5% + title/registration to WisDOT.",
+   "applies_to": "WI resident buying from a Chicago/IL dealer",
+   "source_url": "https://tax.illinois.gov/forms/sales/vehicleusetax/st-556-sales-tax-transaction-return-instructions.html",
+   "confidence": "medium",
+   "notes": "The non-reciprocal states (AZ, CA, FL, HI, IN, MA, MI, SC) pay some IL tax at the ST-58 chart rate (https://tax.illinois.gov/research/taxrates/rntrrc.html); WI is not on that list. Confirmed by an IL dealer guide: https://www.driveandersonmazda.com/buying-a-car-in-illinois-if-you-live-in-wisconsin/"
+  },
+  {
+   "item": "IL nonresident exemption documentation",
+   "value": "Buyer signs Form ST-588 (Nonresidency Exemption Certification). The dealer keeps a copy of the buyer's valid out-of-state driver's license as proof of nonresidency.",
+   "applies_to": "WI resident buying from an IL dealer",
+   "source_url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/st-588.pdf",
+   "confidence": "medium",
+   "notes": "Risk for a student without a US/WI driver's license: the dealer may insist on IL tax or other proof. Confirm before the deal."
+  },
+  {
+   "item": "IL private-party purchase by a WI resident",
+   "value": "IL RUT-50 private-party use tax is for Illinois residents titling in IL. A WI resident pays WI use tax (5.5% in Dane) at WisDOT when titling. WI credits sales tax paid to another state up to the WI amount.",
+   "applies_to": "Buying from a private seller in Chicago/IL",
+   "source_url": "https://tax.illinois.gov/research/taxinformation/sales/vehicle.html",
+   "confidence": "medium",
+   "notes": "WI credit rule: Wis. Admin. Code Tax 11.83 (https://law.cornell.edu/regulations/wisconsin/Wis-Admin-Code-SS-Tax-11-83). IL plates stay with the IL seller."
+  },
+  {
+   "item": "Driving an IL-bought car home",
+   "value": "IL 7/30-day transport (non-resident drive-away) permit: $10 each at IL Secretary of State facilities. IL dealers may issue non-resident drive-away permits. Alternatively, apply for a WI title online and print a WI temp plate ($3).",
+   "applies_to": "WI buyer purchasing in Illinois",
+   "source_url": "https://www.ilsos.gov/departments/vehicles/faq.html",
+   "confidence": "medium",
+   "notes": "IL rule on non-resident drive-away permits: https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-92-SS-1010.425 . What a dealer charges for a drive-away permit was not confirmed."
+  },
+  {
+   "item": "Emissions testing: Dane County",
+   "value": "Not required. WI emissions testing applies only to vehicles kept in Kenosha, Milwaukee, Ozaukee, Racine, Sheboygan, Washington and Waukesha counties (some only partly); the test is free.",
+   "applies_to": "Madison / Dane County",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/rnew-plts/emissiontest.aspx",
+   "confidence": "high",
+   "notes": "Legislative Council brief, July 2026: https://docs.legis.wisconsin.gov/misc/lc/issue_briefs/2026/transportation/ib_vehicle_emissions_testing_el_2026_07_09 . One search summary wrongly listed Dane in place of Ozaukee; the official sources exclude Dane."
+  },
+  {
+   "item": "Safety inspection",
+   "value": "Wisconsin has no periodic safety inspection for passenger cars",
+   "applies_to": "All WI passenger cars",
+   "source_url": "https://www.kbb.com/car-advice/vehicle-inspections-by-state/",
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "item": "Pre-purchase inspection cost",
+   "value": "Generic ranges: $100-$150 (Consumer Reports, cited in the search results) and $110-$250 depending on make. Lemon Squad mobile standard inspection: $220 (serves WI).",
+   "applies_to": "Madison buyer",
+   "source_url": "https://lemonsquad.com/used-car-inspections/standard",
+   "confidence": "medium",
+   "notes": "No published prices were found for specific Madison shops (Midwest Engine Service 608-244-9040, DuBois Auto Clinic, Aeschbach Automotive in Middleton, Inspectiver mobile). Call for a quote; a dealer for the brand (Toyota/Lexus) can also inspect. Bankrate: https://bankrate.com/loans/auto-loans/buying-a-used-car-get-an-inspection-first"
+  },
+  {
+   "item": "Carfax report cost",
+   "value": "$44.99 for 1, $64.99 for 3, $99.99 for 5",
+   "applies_to": "Vehicle history check",
+   "source_url": "https://www.vinaudit.com/how-much-is-a-carfax-report",
+   "confidence": "medium",
+   "notes": "Some sources say $79.99 for 3. Many dealers provide Carfax free on listings."
+  },
+  {
+   "item": "AutoCheck report cost",
+   "value": "About $24.99-$29.99 for a single report. $49.99 for 25 reports (must be used within 21 days).",
+   "applies_to": "Vehicle history check; good value when comparing many cars",
+   "source_url": "https://www.autocheck.com/vehiclehistory/vehicle-history-reports",
+   "confidence": "medium",
+   "notes": "Sources disagree on the single-report price."
+  },
+  {
+   "item": "NMVTIS report cost / free checks",
+   "value": "NMVTIS reports cost about $3.49-$12.99 from approved providers (VinAudit $9.99 each, 5 for $19.99). NICB VINCheck (theft/salvage) is free, up to 5 searches per 24 hours.",
+   "applies_to": "Title-brand / salvage / theft screening",
+   "source_url": "https://vehiclehistory.bja.ojp.gov/nmvtis_vehiclehistory",
+   "confidence": "medium",
+   "notes": "NICB: https://www.nicb.org/vincheck"
+  },
+  {
+   "item": "Pending: wheel-tax referendum bill",
+   "value": "SB 467 (Hutton) would require voter approval of wheel taxes; existing ones would get 18 months to win a referendum. It passed the Senate on Jan 21, 2026; whether it became law was not found.",
+   "applies_to": "Future Madison/Dane wheel taxes",
+   "source_url": "https://legis.wisconsin.gov/senate/05/hutton/press-releases/senate-approves-hutton-bill-giving-taxpayers-a-direct-vote-on-local-wheel-taxes/",
+   "confidence": "low",
+   "notes": "Even if enacted, it would not change the wheel tax paid at an Oct 2026 registration."
+  },
+  {
+   "item": "ESTIMATE: one-time purchase costs for a $12,000 gas car (Madison dealer)",
+   "value": "About $1,400 total:\n- Sales tax: about $676 (5.5% of $12,000 plus a $299 taxable service fee)\n- Title: $214.50\n- Registration: $85\n- Wheel taxes: $80\n- Plates: $12\n- Service fee: $299\n- Electronic processing fee: up to $38",
+   "applies_to": "Planning estimate",
+   "source_url": "https://wisconsindot.gov/Documents/formdocs/mv1.pdf",
+   "confidence": "medium",
+   "notes": "My arithmetic from the sourced components, not a quote. A hybrid adds $75. If you transfer existing plates, subtract $12."
+  },
+  {
+   "item": "ESTIMATE: one-time purchase costs for a $12,000 gas car (private party, titled online)",
+   "value": "About $1,055 total:\n- Tax: $660\n- Title: $214.50\n- Registration: $85\n- Wheel taxes: $80\n- Plates: $12\n- Temp plate: $3\nAdd $5 if done at the DMV counter.",
+   "applies_to": "Planning estimate (WI or IL private seller)",
+   "source_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/nolaf.aspx",
+   "confidence": "medium",
+   "notes": "My arithmetic, not a quote. Add inspection (~$100-$250) and history reports (~$10-$45). An IL dealer purchase is the same as the Madison dealer case, except the doc fee can be up to $377.63 and there may be a drive-away permit fee."
+  }
+ ]
+}

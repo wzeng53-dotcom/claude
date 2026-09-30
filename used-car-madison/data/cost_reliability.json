@@ -1,0 +1,329 @@
+{
+ "summary": "IMPORTANT PROVENANCE NOTE: This subagent could not run any live research. The session's WebSearch budget (200 of 200 calls) was already used up before this subagent's first query, and the one allowed direct-fetch attempt (NHTSA recall API via curl) was blocked by the proxy with a 403. Everything below comes from prior model knowledge of these vehicles, not from this run. Every repair cost is an ESTIMATE: independent-shop to dealer ranges in USD, with parts and labor, in the Upper Midwest. Every recall or campaign statement must be checked by VIN at nhtsa.gov/recalls, plus lexus.com/recall or toyota.com/recall. The source_urls list those lookup pages and fueleconomy.gov; none of them was fetched in this run. No listings, prices, VINs or mileages were found or invented.\n\nRANKING FOR THIS BUYER (10.5-month hold in Madison, <= $13k, resale in Aug 2027), from best fit:\n- Score 9: Toyota Camry 2015-2017 2.5L; Toyota Corolla 2016-2019; Toyota RAV4 2013-2016 AWD.\n- Score 8: Lexus RX 350 2010-2015 AWD (the best Lexus for winter plus resale); Lexus ES 350 2012-2015; Lexus ES 300h 2013-2015; Toyota Prius 2016-2018 (or a 2012-2015 with EGR/head-gasket history); Toyota Avalon 2013-2016.\n- Score 7: Lexus GX 470 2005-2009 (best value retention, but fuel and timing-belt risk); Lexus CT 200h 2014-2017; Toyota Venza 2013-2015; Toyota Highlander 2011-2013.\n- Score 6: Toyota 4Runner; Lexus RX 450h.\n- Score 5: Lexus IS AWD; Lexus GS 350 AWD.\n- Scores 1-3: every Land Rover (LR3, LR4, Range Rover Sport, Evoque, LR2, Discovery Sport). At <= $13k these are high-mileage vehicles with $1.5k-6k single-failure risks (air suspension, timing cover/chain, coolant pipes, PTU, 9-speed), premium fuel, and very weak dealer trade-in values. That is the opposite of what a 10-month hold needs.\n\nESTIMATED 10.5-MONTH FUEL COST (9,000 mi; assumes regular about $3.15/gal and premium about $3.90/gal; my assumptions, verify local prices; approximate EPA combined mpg from memory; winter lowers mpg by about 10-20%, more for hybrids):\n- Prius Gen4 about $550; CT 200h about $675; ES 300h about $710.\n- Corolla about $890; RX 450h about $980; Camry 2.5 about $1,010.\n- RAV4 AWD and Avalon about $1,130 each; Venza 2.7 AWD about $1,290; Highlander V6 about $1,420.\n- ES 350 about $1,300-1,600 (premium recommended); IS 250 AWD about $1,600; RX 350 AWD about $1,420-1,760; GS 350 AWD about $1,670; 4Runner about $1,670.\n- GX 470 about $2,190; LR4 about $2,340; Range Rover Sport about $2,500; LR3 about $2,700.\n\nESTIMATED DEPRECIATION over the hold (my estimate; the market must confirm):\n- 8-12-year-old mainstream Toyota/Lexus: roughly 8-14% of purchase price if sold privately. Selling to a dealer or taking a CarMax/Carvana instant offer typically costs another 10-20% below private-party value.\n- GX 470 and 4Runner: roughly 3-8%.\n- Land Rover: roughly 20-35%.\nSales tax (WI 5% + Dane County 0.5% = 5.5% if registered in Madison) is a sunk cost, so a lower purchase price helps twice.\n\nMADISON-SPECIFIC ADVICE:\n- Salt-belt rust inspection matters more than mileage.\n- Budget for 4 winter tires on steel wheels for FWD cars (my estimate: about $600-900; they can be resold).\n- Get a pre-purchase inspection at an independent Toyota/Lexus shop (my estimate: about $100-200).\n- Prefer cars with dealer service records showing the relevant campaign was done: 2GR-FE VVT-i metal oil line on 2005-2009 V6s, Takata airbag replacement on IS 2006-2013 / Corolla 2003-2013 / 4Runner 2010-2016.\n- August in Madison is peak student turnover, so list the car 3-4 weeks before leaving. Compare a private sale against CarMax/Carvana instant offers.\n\n'捡漏' (bargain) angle: under-demanded but mechanically excellent models are the Avalon 2013-2016, the Venza, the ES 350 2012-2014 and ES 300h, and the GS 350 AWD. They tend to sell for less than a RAV4/RX/Camry of similar condition. Their resale is also somewhat less liquid, so buy only well below typical asking price.",
+ "models": [
+  {
+   "model": "Lexus ES 350 (2007-2012 XV40 / 2013-2018 XV60)",
+   "best_years": "2012 (last XV40 year, after the sticky-dash years); 2013-2015 XV60 is best overall (at <=$13k expect roughly 110-150k miles, my estimate). 2010-2011 acceptable if the dash is intact.",
+   "avoid_years": "2007-2009 unless records prove the rubber VVT-i oil line was replaced by the all-metal line; any example with a sticky/melting dash priced as if it were perfect.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2GR-FE VVT-i oil feed line with a rubber section (2007-2009): it can burst, dumping oil in seconds and destroying the engine. Metal line retrofit about $250-500 if not done under the campaign. 2) Sticky/melting/shiny dashboard and door-panel tops (2007-2011): dealer dash replacement about $1,500-3,000; aftermarket dash cover $50-150. Cosmetic, but it hurts resale. 3) Water pump leak around 80-130k miles: about $500-900. 4) Timing-chain cover oil leak: about $1,200-2,500 (labor heavy). 5) VVT-i cam gear cold-start rattle (more on 2010+ 2GR): about $1,200-2,500. 6) Control-arm/sway-bar bushings and engine mounts: about $300-900. 7) U660E 6-speed automatic is generally durable; harsh 2-3 shifts are sometimes fixed by an ECU update. Fuel: about 21-22 mpg combined (XV40 about 19 city/27 hwy); Lexus recommends premium.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: 2GR-FE VVT-i oil-line limited service campaign (2007-2009 ES 350); 2009-2010 floor-mat entrapment / accelerator-pedal recalls (ES 350 2007-2010); Lexus dash/door-panel warranty-enhancement program for 2007-2011, which to my knowledge has expired. I am not certain whether ES 350 is in the Takata inflator population, so check the VIN.",
+   "pre_purchase_checks": "VIN check at NHTSA and Lexus; service records showing the oil-line campaign, or visually confirm an all-metal VVT-i line (old part has a rubber hose section); dash top for stickiness or glare; pink/white crust at the water pump; cold-start listen for a 1-2 second rattle; transmission shifts cold and hot, plus light-throttle 25-45 mph shudder; timing-cover seepage; underbody, subframe, rocker and brake-line rust; OBD scan for pending codes; tire age; paid independent PPI.",
+   "suitability_10mo_hold_1to10": 8,
+   "rationale": "Very reliable 2GR-FE V6 plus 6-speed automatic, comfortable, strong Lexus resale, and cheaper to insure than the IS/GS. FWD works well in Madison with winter tires. Drawbacks are premium-recommended fuel (about $1,300-1,600 for 9k miles, my estimate) and FWD only. This is the best-value Lexus sedan for the budget. Knowledge-based only; not verified by live search.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus ES 300h (2013-2018)",
+   "best_years": "2015-2016 if within budget; realistically 2013-2014 at <=$13k (roughly 110-160k miles, my estimate).",
+   "avoid_years": "No specific bad year known to me. Avoid any car with hybrid-system warnings, an unknown hybrid-battery history at high mileage, or a flood/salvage title.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) NiMH hybrid battery wear: about $2,500-4,500 at a dealer, $1,500-2,500 aftermarket or reconditioned. 2) Clogged battery cooling-fan intake filter (by the rear seat), which can overheat the battery; cleaning is cheap. 3) Inverter coolant pump about $300-700; inverter/converter failure (rare) up to about $3,000. 4) ECB brake actuator (uncommon): about $1,500-3,000. 5) 12V auxiliary battery: about $200-350. 6) Cooled-EGR carbon buildup on the Atkinson 2.5 (less documented than on the Prius 2ZR): cleaning about $300-700. Fuel: about 40 mpg combined, regular grade.",
+   "open_recalls_or_campaigns": "I cannot confirm a model-wide campaign from memory, so check the VIN at NHTSA/Lexus. The factory hybrid-component warranty (8 yr / 100k miles for this era) has expired on these ages.",
+   "pre_purchase_checks": "Hybrid battery health test (OBD dongle plus Dr. Prius/Hybrid Assistant block-voltage test, or a Lexus dealer hybrid health check); inspect the battery-fan filter; no Check Hybrid System history; inverter coolant level; brake pedal feel and ABS/VSC lights; cabin heat in cold weather; rust; PPI.",
+   "suitability_10mo_hold_1to10": 8,
+   "rationale": "Same comfortable ES body at about 40 mpg on regular. My estimated fuel saving is about $800-1,000 versus an ES 350 over 9k miles, and hybrid demand should keep 2027 resale firm. Battery risk over a 10-month hold is modest if the health test passes. FWD only, so budget for winter tires.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus IS 250 / IS 350 (RWD/AWD, 2006-2015)",
+   "best_years": "2011-2013 IS 250 AWD or IS 350 AWD (the IS 350 AWD arrived in 2010); 2014-2015 IS 250 AWD only if found within budget.",
+   "avoid_years": "2006-2008 IS 250 (most carbon-buildup complaints); any RWD car for a Madison winter unless you buy dedicated snow tires; modified or tuned IS 350s; cars without Takata completion.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) The IS 250's 4GR-FE is direct-injection only, so intake-valve carbon builds up and causes rough idle, misfires and hesitation. Walnut blasting about $400-900, repeating every 40-60k miles. 2) Sticky/melting dash (2006-2011): dealer replacement about $1,500-3,000. 3) Water pump about $500-900. 4) AWD front diff/transfer seepage about $300-1,000. 5) Small rear seat and trunk. Premium fuel, about 21-24 mpg; insurance is higher for young or new drivers because it is rated as a sport sedan. The IS 350's 2GR-FSE (port plus direct injection) avoids the carbon issue and is robust.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: Takata airbag inflator recall covering IS 2006-2013 (must be completed); 2009-2010 floor-mat/pedal recalls (IS 2006-2010); Lexus dash warranty-enhancement for 2006-2011 (expired). Lexus previously handled IS 250 carbon under TSB/customer support; now out of coverage.",
+   "pre_purchase_checks": "Cold-start idle smoothness and misfire codes (P0300-P0306); borescope the intake valves if possible; confirm Takata completion by VIN; dash condition; AWD front diff/transfer leaks; confirm the drive type (AWD vs RWD); accident history (common on sport sedans); matched tires; rust; PPI.",
+   "suitability_10mo_hold_1to10": 5,
+   "rationale": "Fun and reliable apart from IS 250 carbon, but the cabin is cramped, insurance runs higher, fuel is premium, and RWD examples struggle in snow. AWD cars cost more and resale demand is lower than ES/RX. Acceptable only as an AWD IS 350/IS 250 with clean records.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus GS 350 (2007-2011 / 2013-2015)",
+   "best_years": "2010-2011 GS 350 AWD; a 2013-2014 GS 350 AWD only if it truly falls under $13k (likely high mileage).",
+   "avoid_years": "2007-2008 (early years, dash issue); RWD for winter; the GS 450h hybrid (costly hybrid and brake-actuator repairs).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Sticky/melting dash (2006-2011): about $1,500-3,000 dealer. 2) 2GR-FSE water pump about $600-1,000; timing-cover leak about $1,500-2,500. 3) AWD front diff/transfer case and front CV/control-arm wear: about $500-1,500. 4) Navigation/display failures on older units. 5) GS 450h brake actuator about $2,000-3,500. Premium fuel, about 20-21 mpg AWD.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: floor-mat/pedal recalls (around 2007-2010); dash warranty-enhancement (expired). I am unsure whether the 2GR-FSE (GS/IS 350) was included in the rubber VVT-i oil-line campaign, so check the VIN.",
+   "pre_purchase_checks": "Confirm AWD; check the VIN for open recalls; dash; leaks at the timing cover and front diff; suspension clunks; cold-start rattle; electronics/nav; rust; PPI.",
+   "suitability_10mo_hold_1to10": 5,
+   "rationale": "An excellent, under-priced car (a bargain candidate), but resale demand is thinner than ES/RX, AWD examples are scarce, and insurance and premium fuel cost more. Harder to sell quickly in Aug 2027.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus RX 350 (2007-2009 / 2010-2015)",
+   "best_years": "2013-2015 (facelift, most sorted); 2010-2012 AWD is the value sweet spot (roughly $10-13k with 110-150k miles, my unverified estimate).",
+   "avoid_years": "2007-2009 without proof of the VVT-i oil-line fix; RX 330 (2004-2006) and RX 300 (1999-2003) for transmission failure history.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2GR-FE rubber VVT-i oil line (2007-2009): retrofit about $250-500; an unrepaired line risks the engine. 2) VVT-i cam gear cold-start rattle (2010+): about $1,200-2,500. 3) Water pump about $500-900. 4) Timing-chain cover oil leak about $1,500-2,500. 5) Torque-converter shudder at light throttle, 25-45 mph, is reported: fluid service or ECU update about $150-400, torque converter about $1,500-3,000. 6) AWD transfer (PTU) seal leaks about $400-1,200. 7) Power liftgate struts or motor about $300-900. 8) Door-lock actuators about $200-400 each. 9) AC evaporator odor. Fuel: about 20 mpg AWD; Lexus recommends premium.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: 2GR-FE VVT-i oil-line campaign (2007-2009 RX 350); 2009-2010 floor-mat entrapment recalls (RX included). Check the VIN for any other open items.",
+   "pre_purchase_checks": "Cold-start rattle; light-throttle shudder test at 25-45 mph; PTU fluid and seepage; all 4 tires matching in brand and wear (protects the AWD); liftgate operation; timing-cover leak; oil-line proof on 2007-2009; underbody and rear-hatch rust; nav/screen; OBD scan; PPI.",
+   "suitability_10mo_hold_1to10": 8,
+   "rationale": "The most popular used Lexus, with AWD, top-tier resale and high liquidity in Madison. The best Lexus for winter plus easy Aug 2027 resale. The cost is fuel (about $1,400-1,750 for 9k miles, my estimate) and slightly higher insurance than a Camry.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus RX 450h (2010-2015)",
+   "best_years": "2013-2015",
+   "avoid_years": "2010 (first year of the generation, more hybrid-system complaints); any car with hybrid warnings or no battery history.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Hybrid battery about $3,000-5,500 at a dealer, $2,000-3,000 aftermarket. 2) Inverter or inverter coolant pump about $300-3,000+. 3) ECB brake actuator/booster about $1,500-3,500. 4) 2GR-FXE water pump about $500-900. 5) Rear electric AWD motor issues (rare). Fuel: about 28-29 mpg combined.",
+   "open_recalls_or_campaigns": "Not confident of specific campaigns from memory; check the VIN at NHTSA/Lexus. The hybrid warranty has expired at these ages.",
+   "pre_purchase_checks": "Hybrid battery block-voltage test; brake actuator noise and pedal feel; inverter coolant; no Check Hybrid System history; AWD rear-motor function; rust; PPI.",
+   "suitability_10mo_hold_1to10": 6,
+   "rationale": "AWD with good mpg, but a 10+ year-old high-mile luxury hybrid carries several $2-5k failure points, and 2027 buyers or dealers will discount older hybrids with unknown battery health. The RX 350 is simpler.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus GX 470 (2003-2009)",
+   "best_years": "2008-2009 (latest, most refined); 2005+ generally (5-speed automatic, 270 hp VVT-i 2UZ-FE).",
+   "avoid_years": "2003-2004 (4-speed, oldest); any car with frame or crossmember rot, an undocumented timing belt, an AVS fault light, or heavy overland modifications.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Timing belt plus water pump due every 90k miles or 9 years: about $900-1,600 at an independent shop. 2) Rear height-control air springs leak (rear sag): OEM bags about $500-1,000 per pair installed, compressor about $800-1,500; a coil-spring conversion is about $500-1,000 and is common and accepted. 3) Exhaust manifold cracks or ticking: about $1,000-2,500. 4) Cracked dashboard: very common, cosmetic. 5) Instrument-cluster/odometer LCD pixel loss: about $300-700. 6) AVS adaptive shocks, if equipped: about $1,500-3,000 (conversion possible). 7) Frame and rear crossmember rust in the salt belt. 8) CV boots and steering-rack seepage: about $300-1,200. Fuel: about 15-16 mpg, premium recommended.",
+   "open_recalls_or_campaigns": "I cannot recall a major open campaign for the GX 470 with confidence; check the VIN at NHTSA/Lexus (older recalls may exist).",
+   "pre_purchase_checks": "Written proof of the last timing belt (mileage and date); frame, rear crossmember and brake-line rust (put it on a lift); rear ride height after sitting overnight; compressor run time; exhaust tick on cold start; AVS/height-control lights; 4WD/center-diff lock operation; cluster display; tire age; PPI.",
+   "suitability_10mo_hold_1to10": 7,
+   "rationale": "Best value retention in the group (my estimate: about 3-8% loss over 10 months) and true 4WD for Madison. It is limited by fuel (about $2,200 for 9k miles, my estimate), high mileage at $13k, and a possible $1-1.6k timing-belt bill. Strong if the belt and rust are documented; otherwise skip.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Lexus CT 200h (2011-2017)",
+   "best_years": "2014-2017 (facelift)",
+   "avoid_years": "2011 (first year); high-mile cars with no EGR/cooling-system maintenance history.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) Shares the Prius Gen3 1.8 2ZR-FXE. 1) EGR cooler/EGR passage clogging that can lead to head-gasket failure: preventive EGR clean about $300-700, head gasket about $2,000-3,500. 2) Hybrid battery about $1,500-3,500. 3) Electric engine water pump about $400-800. 4) Brake actuator (less common) about $1,500-2,500. 5) Stiff ride and modest power. Fuel: about 42 mpg, regular grade.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA/Lexus; I cannot confirm specific open campaigns from memory.",
+   "pre_purchase_checks": "Coolant level and any coolant loss or white smoke (head-gasket warning); ask about EGR cleaning; hybrid battery test; water pump; brake feel; rust; PPI.",
+   "suitability_10mo_hold_1to10": 7,
+   "rationale": "Cheapest Lexus to fuel and insure, and small and easy to park. The EGR/head-gasket risk and hatchback size limit it; FWD needs winter tires. Good if you want a Lexus badge at low running cost.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.lexus.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Camry (2007-2017, 2018+)",
+   "best_years": "2015-2017 2.5L 4-cylinder (most sorted XV50); 2012-2014 2.5L is also good. At <=$13k expect roughly 70-130k miles (my estimate).",
+   "avoid_years": "2007-2009 (and to a lesser degree 2010-2011) 2.4L 2AZ-FE because of oil consumption; 2007-2009 V6 without the oil-line fix; 2018 (first year of the XV70, 8-speed hesitation complaints; check the Denso fuel-pump recall on 2018-2019).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2AZ-FE oil consumption (2007-2011): piston/ring job about $2,500-4,000 or a used-engine swap; the Toyota warranty enhancement has expired. 2) 2AR-FE water pump about $400-700. 3) Delayed or hesitant 6-speed shifts (2012-2014), usually an ECU update. 4) AC compressor about $800-1,500. 5) Sticky dash complaints on 2007-2011 (verify). Fuel: about 28 mpg combined (2.5L), regular.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: 2AZ-FE oil-consumption warranty enhancement (2007-2011, expired); 2GR-FE VVT-i oil-line campaign (2007-2009 V6); 2009-2010 floor-mat and sticky-pedal recalls (2007-2010); 2012 power-window master-switch recall (about 2007-2009); Denso low-pressure fuel pump recall (2018-2019).",
+   "pre_purchase_checks": "On 2.4L cars, oil level and consumption history, and blue smoke at startup; transmission behavior; water pump; front suspension noises; rust on rockers and rear arches; flood or accident history; VIN recall check; PPI.",
+   "suitability_10mo_hold_1to10": 9,
+   "rationale": "Lowest-risk sedan with huge resale demand, including among students in August. Cheap to insure, fuel and repair (fuel about $1,000 for 9k miles, my estimate). With winter tires it is fine in Madison. Among the best total-cost picks.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Avalon (2005-2012, 2013-2018)",
+   "best_years": "2013-2018 (2016-2018 ideal if in budget; 2013-2015 realistic); 2011-2012 fine.",
+   "avoid_years": "2005-2006 (first years); any 2005-2009 without the VVT-i oil-line fix.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2GR-FE rubber VVT-i oil line (about 2005-2009): about $250-500. 2) Water pump about $500-900; timing-cover leak about $1,200-2,500; cold-start cam-gear rattle about $1,200-2,500. 3) Warped front rotors or vibration: about $300-600. 4) Entune/infotainment glitches on 2013-2015. Fuel: about 25 mpg combined V6, regular.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: 2GR oil-line campaign (about 2005-2009); floor-mat and sticky-pedal recalls (2005-2010).",
+   "pre_purchase_checks": "Oil-line proof on older cars; cold-start rattle; water pump; transmission; brakes; rust; VIN check; PPI.",
+   "suitability_10mo_hold_1to10": 8,
+   "rationale": "A bargain candidate: Lexus-level comfort on a Toyota V6 at lower prices than the ES or RX because demand is thinner. Reliable and cheap-ish to insure. Resale is less liquid than a Camry or RAV4, so buy well below typical asking.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Corolla (2009-2019)",
+   "best_years": "2014-2019 (at <=$13k, roughly 2016-2019 with about 60-110k miles, my estimate); 2011-2013 is also solid and cheap.",
+   "avoid_years": "2009 (some oil-consumption reports; XRS 2.4 2AZ); 2003-2008 unless Takata airbag work is done; 2020+ is likely over budget.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2ZR-FE water pump about $300-600. 2) CVT (2014+) hesitation is usually fixed by an ECU update; CVT failures are uncommon but cost about $3,000-4,500. 3) AC compressor about $700-1,200. 4) Light car, so snow tires are strongly advised in Madison. Fuel: about 30-32 mpg combined, regular.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: Takata airbag inflator recalls covering roughly 2003-2013 Corolla/Matrix; 2009-2010 sticky-pedal and floor-mat recalls; 2009-2010 ECM stalling and window-switch recalls on some.",
+   "pre_purchase_checks": "VIN recall check (Takata); CVT smoothness and no shudder; water pump; rust; accident and rental history (many ex-fleet cars); tire condition; PPI.",
+   "suitability_10mo_hold_1to10": 9,
+   "rationale": "Lowest total cost of ownership: cheapest insurance, fuel and repairs, and extremely easy to resell in Aug 2027. Less comfortable and less prestigious than a Lexus.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Prius (2010-2015 Gen3, 2016-2022 Gen4)",
+   "best_years": "2016-2018 Gen4 (2019+ AWD-e if found within budget); 2012-2015 Gen3 only with documented EGR and coolant service.",
+   "avoid_years": "2010-2011 (most oil-consumption and head-gasket complaints); any Gen3 with coolant loss.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Gen3 2ZR-FXE EGR cooler clog leading to head-gasket failure: head gasket about $2,000-3,500, preventive EGR and intake cleaning about $300-700. 2) Hybrid battery about $1,500-3,500. 3) Inverter/IPM failures, addressed by software recalls. 4) Brake actuator about $1,500-2,500. 5) Catalytic-converter theft (Gen2/3 targeted), about $1,500-3,000 to replace. 6) HID headlamp failure on Gen3. Fuel: about 50-52 mpg, regular (winter about 40-45).",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: inverter IPM software recalls on Gen3 (2014 and a later fail-safe recall around 2018); 2010 ABS/brake software recall.",
+   "pre_purchase_checks": "Hybrid battery block test; coolant level and loss history; ask about EGR cleaning; inverter recall completion; check for a cat shield; brake feel; rust; PPI.",
+   "suitability_10mo_hold_1to10": 8,
+   "rationale": "Very low fuel cost and high resale demand. A Gen4 is the safest pick. FWD, so it needs winter tires. Gen3 carries head-gasket risk.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota RAV4 (2006-2018)",
+   "best_years": "2016-2018 (best, may be at the budget ceiling with higher miles); 2013-2015 AWD is realistic; 2009-2012 2.5L is also good.",
+   "avoid_years": "2006-2008 2.4L 2AZ-FE (oil consumption); 2006-2009 V6 without the oil-line fix.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2AZ-FE oil burning (2006-2008): about $2,500-4,000. 2) Steering intermediate-shaft clunk (2006-2012): about $300-600. 3) Torque-converter shudder complaints on some 2013-2015 cars: service or ECU update about $150-400, torque converter about $1,500-2,500. 4) AWD coupling and rear-diff fluid neglect. 5) AC and water pump about $400-1,200. Fuel: about 25 mpg AWD, regular.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: rear seat-belt recall on 2013-2018 RAV4; rear suspension lower-arm nut recall on about 2006-2011; 2AZ oil-consumption warranty enhancement (expired); sticky pedal (2009-2010).",
+   "pre_purchase_checks": "Oil consumption on 2.4L cars; shudder test; AWD engagement; steering clunk; rear-seat-belt recall completion; rust on subframe and rear arms; PPI.",
+   "suitability_10mo_hold_1to10": 9,
+   "rationale": "AWD, strong resale and very liquid in Madison, with reasonable fuel and insurance. At $13k expect high-mileage 2013-2015 cars. One of the best all-round picks.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Highlander (2008-2016)",
+   "best_years": "2011-2013 V6 AWD; 2014-2016 if found within budget (high miles).",
+   "avoid_years": "2008-2009 without the oil-line fix; 2008-2010 Highlander Hybrid (brake actuator and inverter).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 2GR-FE oil line (2008-2009): about $250-500. 2) Cold-start cam-gear rattle about $1,200-2,500. 3) Water pump about $500-900. 4) Timing-cover leak about $1,500-2,500. 5) 1AR-FE 2.7 water pump about $400-700. 6) Rear hatch struts or latch about $150-400. 7) Hybrid brake actuator about $1,500-3,000. Fuel: about 20 mpg V6 AWD.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: 2GR oil-line campaign (2008-2009); 2012 window-switch recall (2008-2010); floor mat and sticky pedal (2010).",
+   "pre_purchase_checks": "Oil-line proof; cold-start rattle; water pump; AWD; third-row condition; rust; PPI.",
+   "suitability_10mo_hold_1to10": 7,
+   "rationale": "Reliable and liquid, but you pay for 3 rows you probably don't need, with higher fuel than a RAV4. At $13k expect 140k+ miles.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota Venza (2009-2015)",
+   "best_years": "2013-2015",
+   "avoid_years": "2009 (first year); 2009 V6 without oil-line confirmation (check the VIN).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 1AR-FE 2.7 water pump about $400-700. 2) V6 2GR items (water pump, timing-cover leak, cam-gear rattle) about $500-2,500. 3) 19-20 inch tires about $700-1,100 per set, and poor in snow unless you fit winter tires. 4) HVAC blend-door actuator clicking about $200-500. Fuel: about 22 mpg (2.7 AWD), regular.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA/Toyota; I cannot confirm specific open campaigns from memory.",
+   "pre_purchase_checks": "Water pump; tire size and cost; AWD function; HVAC; rust; PPI.",
+   "suitability_10mo_hold_1to10": 7,
+   "rationale": "A bargain candidate: roomy, comfortable, reliable and usually cheaper than an equivalent RAV4. Resale is less liquid, and the big wheels add tire cost.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Toyota 4Runner (2003-2009 4th gen, 2010+ 5th gen)",
+   "best_years": "2010-2013 5th gen if found under $13k (usually 180k+ miles); 2005-2009 4.0 V6 4th gen.",
+   "avoid_years": "2003-2004 (early 1GR-FE head-gasket reports); a V8 with an unknown timing belt; any frame rot.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Frame rust in the salt belt. 2) Cracked dashboard, common on the 4th gen (cosmetic). 3) Tailgate glass motor or regulator about $300-600. 4) 2UZ V8 timing belt about $900-1,500. 5) Front suspension and ball joints about $400-1,000. Fuel: about 17-18 mpg, regular.",
+   "open_recalls_or_campaigns": "From prior knowledge; verify by VIN: Takata airbag recall on 2010-2016 4Runner.",
+   "pre_purchase_checks": "Frame inspection on a lift; timing belt on the V8; 4WD engagement; Takata completion; tailgate; rust; PPI.",
+   "suitability_10mo_hold_1to10": 6,
+   "rationale": "Excellent value retention and 4WD, but at <=$13k you get very high mileage and about $1,700 fuel over 9k miles (my estimate). Ride and handling are truck-like.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.toyota.com/recall",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover LR4 (2010-2016)",
+   "best_years": "2014-2016 3.0 SC V6 is the least bad; still only with a Land Rover specialist PPI and full records.",
+   "avoid_years": "2010-2012 5.0 V8 (timing chain guides and tensioners); any car with air-suspension faults or no service records.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Air-suspension compressor about $1,500-2,500 and air struts about $800-1,500 each. 2) 3.0 SC front timing-cover oil leak about $3,000-6,000. 3) Water pump about $1,000-2,000. 4) Plastic coolant pipes about $800-2,000. 5) 5.0 V8 timing-chain guides about $3,000-5,000. 6) Electronic parking brake module and transfer-case actuator about $800-2,000. Fuel: about 15-16 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA; not confident from memory.",
+   "pre_purchase_checks": "Land Rover specialist PPI with an SDD diagnostic scan; air suspension raise/lower cycles; timing-cover and coolant leaks; timing-chain noise; electronic parking brake and transfer case; records.",
+   "suitability_10mo_hold_1to10": 3,
+   "rationale": "One failure can erase a year's savings; dealers offer low trade-in values for high-mile Land Rovers; premium fuel. Poor fit for this buyer.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover LR3 (2005-2009)",
+   "best_years": "2008-2009 4.4 V8 if you must.",
+   "avoid_years": "All, for this buyer; the 4.0 V6 in particular.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Air suspension about $1,000-2,500. 2) Rear differential failure about $2,500-4,000. 3) Electronic parking brake module about $800-1,500. 4) 4.4 coolant crossover pipe about $1,000-2,000. 5) Control-arm bushings about $600-1,500. 6) Electrical faults. Fuel: about 13-14 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA.",
+   "pre_purchase_checks": "Specialist PPI; air suspension; rear diff noise; electronic parking brake; coolant leaks.",
+   "suitability_10mo_hold_1to10": 2,
+   "rationale": "Cheap to buy but high repair risk, very thirsty, and weak resale.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover Range Rover Sport (2006-2013, 2014+)",
+   "best_years": "None recommended at <=$13k; 2012-2013 5.0 NA is the least risky of the L320s.",
+   "avoid_years": "2006-2009 4.2 SC; 2010-2012 5.0 (timing chains); 2014-2015 L494 at this price (high mileage, air suspension, timing cover).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) 4.2 SC supercharger coupler/isolator rattle about $1,000-2,500. 2) Coolant pipes about $1,000-2,000. 3) Timing-chain tensioners and guides about $3,000-5,000. 4) Air suspension about $1,500-3,000. 5) Electronic parking brake and rear diff about $1,000-3,000. Fuel: about 13-14 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA.",
+   "pre_purchase_checks": "Specialist PPI; timing and supercharger noise; air suspension; coolant leaks.",
+   "suitability_10mo_hold_1to10": 2,
+   "rationale": "Highest repair exposure and fastest depreciation. Not suitable.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover Range Rover Evoque (2012-2019)",
+   "best_years": "2012-2013 (Aisin 6-speed automatic) is somewhat less risky than 2014+.",
+   "avoid_years": "2014-2016 (early ZF 9-speed); 2018-2019 Ingenium 2.0 at high mileage.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) ZF 9HP 9-speed harsh or erratic shifts, needing software updates or valve body work: about $500-4,000. 2) PTU/transfer failure about $1,500-3,000. 3) 2.0T turbo, coolant leaks and thermostat housing about $500-2,000. 4) Direct-injection carbon buildup. 5) Ingenium oil dilution and timing-chain stretch about $2,000-4,000. 6) Infotainment faults. Fuel: about 24 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA.",
+   "pre_purchase_checks": "Transmission behavior; PTU leaks; coolant leaks; scan; records.",
+   "suitability_10mo_hold_1to10": 3,
+   "rationale": "Stylish but expensive to fix, with weak dealer offers in 2027.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover LR2 (2008-2015)",
+   "best_years": "2013-2015 (2.0T with Aisin 6-speed).",
+   "avoid_years": "2008-2012 3.2 I6 at high mileage.",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) Haldex/PTU/rear diff about $1,500-3,000. 2) Water pump about $600-1,000. 3) Electrical and sunroof-drain leaks. Fuel: about 17-20 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA.",
+   "pre_purchase_checks": "AWD function; PTU leaks; electrical; records.",
+   "suitability_10mo_hold_1to10": 3,
+   "rationale": "Cheap to buy, but weak resale and AWD-component risk.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  },
+  {
+   "model": "Land Rover Discovery Sport (2015-2019)",
+   "best_years": "2018-2019 if within budget.",
+   "avoid_years": "2015-2016 (first years).",
+   "key_issues_and_repair_costs": "(Costs are estimates.) 1) ZF 9HP issues about $500-4,000. 2) PTU about $1,500-3,000. 3) 2.0T or Ingenium engine issues about $1,000-4,000. 4) Infotainment. Fuel: about 22 mpg, premium.",
+   "open_recalls_or_campaigns": "Check the VIN at NHTSA.",
+   "pre_purchase_checks": "Transmission; PTU; scan; records.",
+   "suitability_10mo_hold_1to10": 3,
+   "rationale": "Faster depreciation and higher repair risk than any Toyota or Lexus option.",
+   "source_urls": [
+    "https://www.nhtsa.gov/recalls",
+    "https://www.fueleconomy.gov"
+   ]
+  }
+ ]
+}

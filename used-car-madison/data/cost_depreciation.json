@@ -1,0 +1,179 @@
+{
+ "models": [
+  {
+   "model_family": "Lexus ES 350 (2010-2012, 2GR-FE V6, FWD)",
+   "example_year_mileage": "2012 ES 350, about 125k miles, clean title, good condition (estimated example, not a listing)",
+   "dealer_retail_now_usd": 11500,
+   "private_party_now_usd": 9800,
+   "trade_in_or_instant_offer_now_usd": 7300,
+   "expected_private_party_aug2027_usd": 8900,
+   "expected_dealer_offer_aug2027_usd": 6300,
+   "basis": "ESTIMATE ONLY. No live data was retrieved: the session's WebSearch budget (200/200) was used up before this task started, and WebFetch/curl are blocked (tried coxautoinc.com once, EGRESS_BLOCKED). The current values are my recollection of 2025 to early-2026 KBB, CarGurus and dealer-listing levels for the Midwest. Treat them as ranges: retail 10.5-12.9k, private party 9.0-10.8k, trade/ICO 6.3-8.0k. Assumptions: age depreciation 6%/yr private party and 8%/yr trade; mileage $0.06/mi x 9,000 = $540; +2% for an August private sale in Madison (seasonal/local demand; unverified). Math, private: 9,800 x (1 - 0.06 x 10.5/12) = 9,286, minus 540 = 8,746, x 1.02 = 8,921, about $8,900 (-9%, about -0.9%/mo). Math, dealer: 7,300 x (1 - 0.08 x 0.875) = 6,789, minus 0.9 x 540 = 6,303, about $6,300. Aug-2027 range: private 8.2-9.7k, dealer 5.5-7.0k (includes a -5%/+5% market-level scenario). Things that hit resale: water pump, sticky/melting dash, rust, accident history on Carfax. Loss if bought privately and sold privately is about $900; bought at retail and sold to a dealer, about $5,200.",
+   "source_urls": [
+    "VERIFY (not fetched in this session; URL pattern): https://www.kbb.com/lexus/es/2012/",
+    "VERIFY (not fetched): https://www.edmunds.com/appraisal/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car",
+    "VERIFY (not fetched): https://www.carvana.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Lexus RX 350 AWD (2010-2012)",
+   "example_year_mileage": "2011 RX 350 AWD, about 135k miles (estimated example)",
+   "dealer_retail_now_usd": 11000,
+   "private_party_now_usd": 9300,
+   "trade_in_or_instant_offer_now_usd": 6700,
+   "expected_private_party_aug2027_usd": 8400,
+   "expected_dealer_offer_aug2027_usd": 5700,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Current values are recalled levels. Ranges: retail 10-12.5k, private party 8.5-10k, trade/ICO 5.8-7.3k. Assumptions: 6%/yr private, 8%/yr trade, $0.06/mi x 9,000, +1% August private (AWD SUVs sell best Oct-Dec in Wisconsin, not August). Private: 9,300 x 0.9475 = 8,812, minus 540 = 8,272, x 1.01 = about $8,400 (-10%, about -1.0%/mo). Dealer: 6,700 x 0.93 = 6,231, minus 486 = about $5,700. Aug-2027 range: private 7.8-9.1k, dealer 5.0-6.4k. Risks: crossing 150k lowers dealer offers noticeably; water pump/timing-cover leaks, AWD transfer case, dash condition. Loss private-to-private about $900; retail-to-dealer about $5,300.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/lexus/rx/2011/",
+    "VERIFY (not fetched): https://www.kbb.com/whats-my-car-worth/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Lexus IS 250 AWD (2008-2012)",
+   "example_year_mileage": "2011 IS 250 AWD, about 120k miles (estimated example)",
+   "dealer_retail_now_usd": 10000,
+   "private_party_now_usd": 8500,
+   "trade_in_or_instant_offer_now_usd": 6000,
+   "expected_private_party_aug2027_usd": 7400,
+   "expected_dealer_offer_aug2027_usd": 5000,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 9-11k, private party 7.8-9.2k, trade 5.3-6.5k. Assumptions: faster depreciation, 8%/yr private and 10%/yr trade. The reasons are a less desirable package (cramped, thirsty for its power) and carbon buildup on the direct-injection 4GR-FSE intake valves. Mileage $0.06/mi, +1% seasonal. Private: 8,500 x 0.93 = 7,905, minus 540 = 7,365, x 1.01 = about $7,400 (-12.5%, about -1.3%/mo). Dealer: 6,000 x 0.9125 = 5,475, minus 486 = about $5,000. Aug-2027 range: private 6.8-8.1k, dealer 4.4-5.6k. Loss private-to-private about $1,100.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/lexus/is/2011/",
+    "VERIFY (not fetched): https://www.edmunds.com/appraisal/"
+   ]
+  },
+  {
+   "model_family": "Lexus GX 470 (2005-2009, 4.7 V8 4WD, body-on-frame)",
+   "example_year_mileage": "2007 GX 470, about 175k miles (estimated example; at $13k expect 165-200k miles)",
+   "dealer_retail_now_usd": 13500,
+   "private_party_now_usd": 12000,
+   "trade_in_or_instant_offer_now_usd": 8800,
+   "expected_private_party_aug2027_usd": 11400,
+   "expected_dealer_offer_aug2027_usd": 8100,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 12-16k, private party 10.5-14k, trade 7.5-10k. The GX 470 has a strong enthusiast/overland following, and its values have been unusually flat for its age. Assumptions: 3%/yr private, 5%/yr trade, $0.04/mi (the car is already high-mileage, so each mile matters less), +1% seasonal. Private: 12,000 x 0.974 = 11,685, minus 360 = 11,325, x 1.01 = about $11,400 (-5%, about -0.5%/mo, the best retention in this set). Dealer: 8,800 x 0.956 = 8,415, minus 324 = about $8,100. Aug-2027 range: private 10.4-12.4k, dealer 7.2-9.0k. Caveats: frame and underbody rust in salt states can erase value; timing belt (2UZ-FE) due about every 90k miles; rear air suspension, cracked dash, exhaust manifold leaks. Fuel economy is only about 15 mpg, which is a big running cost for 9,000 miles. Dealers often lowball cars near 200k miles.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/lexus/gx/2007/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Toyota Camry (2012-2015, 2.5L 4-cyl)",
+   "example_year_mileage": "2014 Camry LE, about 120k miles (estimated example)",
+   "dealer_retail_now_usd": 11000,
+   "private_party_now_usd": 9800,
+   "trade_in_or_instant_offer_now_usd": 7300,
+   "expected_private_party_aug2027_usd": 8900,
+   "expected_dealer_offer_aug2027_usd": 6300,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 10-12.5k, private party 9-10.5k, trade 6.5-8k. Assumptions: 6%/yr private, 8%/yr trade, $0.06/mi, +2% August private premium (a student and first-car favorite; unverified). Private: 9,800 x 0.9475 = 9,286, minus 540 = 8,746, x 1.02 = about $8,900 (-9%). Dealer: 7,300 x 0.93 = 6,789, minus 486 = about $6,300. Aug-2027 range: private 8.2-9.6k, dealer 5.6-7.0k. This is one of the most liquid resale choices (easy to sell fast to students). Loss private-to-private about $900; retail-to-dealer about $4,700.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/toyota/camry/2014/",
+    "VERIFY (not fetched): https://www.kbb.com/whats-my-car-worth/"
+   ]
+  },
+  {
+   "model_family": "Toyota Corolla (2014-2016)",
+   "example_year_mileage": "2015 Corolla LE, about 110k miles (estimated example)",
+   "dealer_retail_now_usd": 11000,
+   "private_party_now_usd": 9300,
+   "trade_in_or_instant_offer_now_usd": 7000,
+   "expected_private_party_aug2027_usd": 8500,
+   "expected_dealer_offer_aug2027_usd": 6100,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 10-12k, private party 8.6-10k, trade 6.3-7.6k. Assumptions: 5.5%/yr private, 7.5%/yr trade (strongest demand among cheap commuters), $0.06/mi, +2% August student premium (unverified). Private: 9,300 x 0.952 = 8,852, minus 540 = 8,312, x 1.02 = about $8,500 (-9%, about -0.9%/mo). Dealer: 7,000 x 0.934 = 6,541, minus 486 = about $6,100. Aug-2027 range: private 7.9-9.1k, dealer 5.5-6.7k. It has the lowest fuel cost of the non-hybrids. Check the CVT service history.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/toyota/corolla/2015/",
+    "VERIFY (not fetched): https://www.carvana.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Toyota Prius (2012-2015, Gen 3)",
+   "example_year_mileage": "2014 Prius Two, about 125k miles (estimated example)",
+   "dealer_retail_now_usd": 11000,
+   "private_party_now_usd": 9300,
+   "trade_in_or_instant_offer_now_usd": 6500,
+   "expected_private_party_aug2027_usd": 8300,
+   "expected_dealer_offer_aug2027_usd": 5400,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 9.5-12k, private party 8.3-10.3k, trade 5.5-7.3k. Assumptions: 7%/yr private and 9%/yr trade (12-year-old hybrid battery risk; values follow gas prices), $0.07/mi (the battery makes mileage matter more), +2% student premium. Private: 9,300 x 0.939 = 8,730, minus 630 = 8,100, x 1.02 = about $8,300 (-11%, about -1.1%/mo). Dealer: 6,500 x 0.921 = 5,988, minus 567 = about $5,400. Aug-2027 range: private 7.5-9.1k, dealer 4.6-6.2k. Gen-3 risks: hybrid battery replacement (roughly $1.5-4k, estimate), EGR cooler clog leading to head gasket failure around 150k+. Gas-price spikes would raise its resale. Dealers offer less for older hybrids.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/toyota/prius/2014/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Toyota RAV4 AWD (2011-2014)",
+   "example_year_mileage": "2013 RAV4 LE/XLE AWD, about 125k miles (estimated example)",
+   "dealer_retail_now_usd": 12000,
+   "private_party_now_usd": 10300,
+   "trade_in_or_instant_offer_now_usd": 7800,
+   "expected_private_party_aug2027_usd": 9400,
+   "expected_dealer_offer_aug2027_usd": 6800,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 11-13.5k, private party 9.5-11.5k, trade 7-8.8k. For a 2011-2012 at similar miles, subtract about $1.5-2k (estimate). Assumptions: 5.5%/yr private, 7.5%/yr trade (AWD compact SUVs are in strong demand in Wisconsin), $0.06/mi, +2% (student plus AWD demand). Private: 10,300 x 0.952 = 9,804, minus 540 = 9,264, x 1.02 = about $9,400 (-8%, about -0.8%/mo). Dealer: 7,800 x 0.934 = 7,288, minus 486 = about $6,800. Aug-2027 range: private 8.7-10.2k, dealer 6.1-7.5k. Check: 2011-2012 2.4L (2AZ) oil consumption; 2013+ reports of torque-converter shudder. Rust.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/toyota/rav4/2013/",
+    "VERIFY (not fetched): https://www.kbb.com/whats-my-car-worth/"
+   ]
+  },
+  {
+   "model_family": "Toyota Highlander V6 AWD (2009-2012)",
+   "example_year_mileage": "2011 Highlander V6 AWD, about 150k miles (estimated example)",
+   "dealer_retail_now_usd": 11000,
+   "private_party_now_usd": 9300,
+   "trade_in_or_instant_offer_now_usd": 6800,
+   "expected_private_party_aug2027_usd": 8300,
+   "expected_dealer_offer_aug2027_usd": 5800,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 10-12.5k, private party 8.5-10k, trade 6-7.5k. Assumptions: 6.5%/yr private, 8.5%/yr trade, $0.06/mi, +1% seasonal (3-row SUV demand peaks with families and winter, not with students). Private: 9,300 x 0.943 = 8,771, minus 540 = 8,231, x 1.01 = about $8,300 (-10.6%, about -1.1%/mo). Dealer: 6,800 x 0.926 = 6,294, minus 486 = about $5,800. Aug-2027 range: private 7.6-9.0k, dealer 5.1-6.5k. About 20 mpg means higher fuel cost. Cars already near 150-160k miles move into a lower dealer-offer bracket.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/toyota/highlander/2011/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Land Rover LR4 (2010-2013, 5.0 V8)",
+   "example_year_mileage": "2012 LR4 HSE, about 120k miles (estimated example)",
+   "dealer_retail_now_usd": 11500,
+   "private_party_now_usd": 9000,
+   "trade_in_or_instant_offer_now_usd": 5500,
+   "expected_private_party_aug2027_usd": 7100,
+   "expected_dealer_offer_aug2027_usd": 4000,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 9.5-13k, private party 7.5-10.5k, trade 4-6.5k. Dealers wholesale old Land Rovers cheaply because of repair risk, so the retail-to-trade spread is wide. Assumptions: 15%/yr private, 18%/yr trade, $0.08/mi, no seasonal premium (a narrow buyer pool, and most students avoid it). Private: 9,000 x 0.869 = 7,819, minus 720 = about $7,100 (-21%, about -2.2%/mo). Dealer: 5,500 x 0.8425 = 4,634, minus 648 = about $4,000. Aug-2027 range: private 6.0-8.2k, dealer 3.0-5.0k. Tail risk not in these numbers: timing chain guides/tensioners on the 5.0 V8 (a multi-thousand-dollar job), air suspension compressor or air springs, plastic coolant pipes, electronic parking brake. One failure could exceed the whole expected depreciation. Fuel about 14-15 mpg on premium. Loss retail-to-dealer about $7,500.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/land-rover/lr4/2012/",
+    "VERIFY (not fetched): https://www.carmax.com/sell-my-car"
+   ]
+  },
+  {
+   "model_family": "Land Rover Range Rover Sport (2010-2013)",
+   "example_year_mileage": "2011 Range Rover Sport HSE (5.0 NA), about 120k miles (estimated example)",
+   "dealer_retail_now_usd": 10500,
+   "private_party_now_usd": 8500,
+   "trade_in_or_instant_offer_now_usd": 4800,
+   "expected_private_party_aug2027_usd": 6500,
+   "expected_dealer_offer_aug2027_usd": 3300,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 9-12.5k, private party 7-10k, trade 3.5-6k (Supercharged trims are higher). Assumptions: 17%/yr private and 20%/yr trade (iSeeCars-type studies consistently put Range Rover models among the fastest-depreciating vehicles; this is my recollection, not re-verified here), $0.08/mi, no seasonal premium. Private: 8,500 x 0.851 = 7,236, minus 720 = about $6,500 (-23%, about -2.5%/mo). Dealer: 4,800 x 0.825 = 3,960, minus 648 = about $3,300. Aug-2027 range: private 5.3-7.6k, dealer 2.3-4.3k. Same 5.0 V8 timing-chain and air-suspension risks as the LR4, plus coolant crossover leaks. Not suitable for a 10-month hold on a $13k budget.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/land-rover/range-rover-sport/2011/",
+    "VERIFY (not fetched): https://www.iseecars.com/"
+   ]
+  },
+  {
+   "model_family": "Land Rover Range Rover Evoque (2012-2015, 2.0T)",
+   "example_year_mileage": "2014 Evoque Pure, about 100k miles (estimated example)",
+   "dealer_retail_now_usd": 10500,
+   "private_party_now_usd": 8700,
+   "trade_in_or_instant_offer_now_usd": 5800,
+   "expected_private_party_aug2027_usd": 6800,
+   "expected_dealer_offer_aug2027_usd": 4200,
+   "basis": "ESTIMATE ONLY. No live data (search budget exhausted, fetch blocked). Ranges: retail 9-12.5k, private party 7.3-10k, trade 4.8-7k. Assumptions: 15%/yr private, 18%/yr trade, $0.08/mi, no seasonal premium. Private: 8,700 x 0.869 = 7,558, minus 720 = about $6,800 (-21%, about -2.3%/mo). Dealer: 5,800 x 0.8425 = 4,887, minus 648 = about $4,200. Aug-2027 range: private 5.8-7.8k, dealer 3.3-5.1k. Fuel economy is better than other Land Rovers (about 24 mpg, premium fuel). 2014+ cars use the ZF 9-speed automatic, which has shift-quality complaints. Land Rover parts and labor are expensive.",
+   "source_urls": [
+    "VERIFY (not fetched; URL pattern): https://www.kbb.com/land-rover/range-rover-evoque/2014/",
+    "VERIFY (not fetched): https://www.carvana.com/sell-my-car"
+   ]
+  }
+ ],
+ "market_trend_notes": "DATA LIMITATION: this subagent retrieved no live data. The session-wide WebSearch budget was already at 200/200 when the task started (every query returned \"web search budget exhausted\"). A single WebFetch attempt to coxautoinc.com returned EGRESS_BLOCKED. Everything below comes from model knowledge (training cutoff about mid-2026) and must be treated as unverified. To fix: raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION, or have the parent verify these points with live searches.\n\nWhat I am reasonably confident of (from memory):\n(1) The Manheim Used Vehicle Value Index peaked at about 236 in January 2022. It fell through 2023, then traded in a relatively tight band of about 199-209 through 2024-2025, still well above the pre-pandemic level of about 140 in 2019. In April 2025 it briefly jumped to about 208 after the new US auto tariffs (25% Section 232 tariffs on imported vehicles and parts, effective spring 2025) pulled demand forward. For the rest of 2025 it ran low-single-digit % above year-earlier levels. I could not verify any 2026 monthly print.\n(2) Structural support for older cheap cars through 2026-2027: low new-car production in 2020-2023 and very low lease originations mean few 1-5-year-old used cars. Buyers were pushed into older, cheaper vehicles, and listings under $15k became scarce (the average used listing is about $25k; the sub-$15k share is well below pre-pandemic). High auto-loan rates add to the same shift. Tariffs raised new-car prices and parts/repair costs, which also supports used values.\n(3) Headwinds for 2027: lease returns start to recover as 2023-2025 leases mature, adding late-model supply. That mainly softens 1-4-year-old values; the effect on 12-15-year-old $8-13k cars is indirect and smaller. Other risks: a recession or rising unemployment, subprime loan stress, and tariff reversal.\n(4) Cox Automotive's public forecasts have generally called for broadly stable wholesale values (low-single-digit year-over-year changes) rather than a crash. I could not confirm the exact 2026 or 2027 forecast figures.\n\nBase case used in the model estimates: the market level is flat, 0% +/- 5%, from Oct 2026 to Aug 2027. On top of that, age and mileage depreciation per model:\n- Toyota/Lexus 12-15 years old: about 5.5-7% a year private party (about 0.8-1.1% a month including 9k miles).\n- GX 470: about 3% a year (about 0.5% a month).\n- IS 250 and Prius: about 7-8% a year (about 1.1-1.3% a month).\n- Land Rover: about 15-17% a year (about 2.2-2.5% a month).\n- Trade and instant-offer values fall faster, by about 2 points a year more.\n- Mileage adjustment: $0.04-0.08 per mile. For 9,000 miles that is $360-720.\nA -5% or +5% market scenario moves the Aug-2027 private value by about $400-600 on a $9-10k car.",
+ "seasonality_notes": "UNVERIFIED (no live search available this session). These are general patterns from model knowledge.\n\n(1) National wholesale (Manheim, not seasonally adjusted) usually rises January to March or April as tax refunds arrive (IRS refunds peak in February-March). It then drifts down May-December, with the softest stretch in October-December. Retail asking prices for cheap cars follow the same pattern with a lag. Tax season (February-April) is the strongest time to sell. November-December (holidays, winter, dealers clearing year-end inventory) is generally the best time to buy. iSeeCars-type deal studies have pointed to late-year months for the most discounted used listings (my recollection).\n\n(2) This plan buys in October 2026, which is seasonally soft and favorable. It sells in August 2027, after the spring peak but typically still at or slightly above the prior October's level. The seasonal effect of the round trip is about neutral to +2%. I applied +1% for most Toyota/Lexus models, +2% for student-favored models (Corolla, Camry, Prius, ES, RAV4), 0% for Land Rover, and 0% on dealer offers.\n\n(3) Wisconsin factor: AWD and 4WD SUVs (RAV4, RX, Highlander, GX) see their strongest local demand around the first snow (October-December). Selling an AWD SUV in August forgoes that bump. Buying one in October, by contrast, happens at a seasonally firm time for AWD.\n\n(4) Madison August effect (plausible, but I found no hard data this session): Madison's lease year traditionally turns over in mid-August (around August 14-15), and UW-Madison fall classes start right after Labor Day. International and new graduate students arrive in mid-to-late August and look for cheap, reliable cars, often through 小红书, WeChat groups and Facebook Marketplace. That is a genuine buyer pool for a well-documented Toyota or Lexus. But departing graduates also sell in May and in July-August, so supply rises too. The net premium is modest; I assumed +1-2%, unverified.\n\nPractical timing: list about 3-5 weeks before leaving (mid-July). Offer a handover date that matches new students' arrival. Get CarMax, Carvana and KBB Instant Cash Offer quotes in July as a guaranteed floor. Leave a buffer to complete the title transfer before leaving the country.",
+ "dealer_vs_private_gap_notes": "UNVERIFIED (from model knowledge; no live data this session). For 10-15-year-old cars priced around $8-13k:\n- Dealer retail asking is typically about 12-25% above private-party value.\n- Trade-in and instant cash offers (KBB ICO, CarMax, Carvana) are typically about 20-35% below private-party value.\n- So the full dealer spread from retail to wholesale is about $3,500-5,500 on a $10-12k Toyota or Lexus, and about $5,000-7,500 on a Land Rover.\n\nWhy the spread is so large on cheap cars: dealers need reconditioning ($500-1,500), auction and transport fees, floor-plan costs, and a fixed-dollar profit. That profit is a big percentage of a cheap car's price. Dealers also usually wholesale cars over about 10 years old or 150k miles at auction rather than retail them, so they bid at the auction price minus fees.\n\nHow the buyers compare:\n- CarMax: appraisals are good for 7 days. Offers on older, high-mileage cars are auction-based and often at or below the low end of KBB trade-in.\n- Carvana: also buys old cars, but offers drop steeply with age and miles.\n- KBB Instant Cash Offer: a redeemable offer from participating dealers, usually in the KBB trade-in \"fair to good\" range.\n- Peddle: aimed at high-mileage or damaged cars and usually the lowest.\n- For older Land Rovers the dealer discount is extra-large because of repair-liability risk.\n\nImplications for this buyer, under my estimates:\n- The single biggest cost lever is the channel, not the model. Buying at dealer retail and selling to a dealer loses about $4,700-5,600 on a Toyota or Lexus (about $6,300-7,500 on a Land Rover). That is 5-6 times the pure 10.5-month depreciation.\n- Buying and selling privately loses only about $600-1,100 on a Toyota or Lexus, and about $1,900-2,000 on a Land Rover.\n- Buying at dealer retail but selling privately loses about $2,100-2,700.\n- So the \"捡漏\" strategy is to buy from a private seller (or a dealer car priced at or below private-party value) and sell privately to incoming students. Use dealer instant offers only as a backstop.\n- Note that Wisconsin collects sales tax on private-party purchases at DMV registration too (5% state plus 0.5% Dane County). Buying privately avoids the dealer's fee but not the tax.",
+ "summary": "IMPORTANT CAVEAT: no web data was retrieved by this subagent. The session-wide WebSearch budget was already exhausted (200/200) when the task began, and the one WebFetch attempt was blocked by the egress proxy. All numbers are estimates from model knowledge (training through about mid-2026), labeled as such, with explicit assumptions and math. The source_urls are pages to verify against (marked \"not fetched\"), not sources I read. The parent should cross-check the current values against live listing and KBB data gathered by other agents.\n\nKey findings (estimates):\n(1) Expected private-party loss from about October 2026 to August 2027 with 9,000 miles, if bought and sold privately:\n- GX 470: about $600 (-5%)\n- Corolla, Camry, ES 350, RAV4, RX 350: about $800-900 (-8 to -10%)\n- Highlander, Prius: about $1,000 (-11%)\n- IS 250 AWD: about $1,100 (-12.5%)\n- Land Rover LR4, RR Sport, Evoque: about $1,900-2,000 (-21 to -23%), plus large repair tail risk (5.0 V8 timing chain, air suspension, 9-speed transmission).\n\n(2) Expected August 2027 dealer or instant offers:\n- Toyota/Lexus: about $5,000-6,800 (GX about $8,100)\n- Land Rover: about $3,300-4,200\n\n(3) The channel matters far more than the model. The dealer retail-to-trade spread is about $4,700-5,600 for Toyota/Lexus and $6,300-7,500 for Land Rover. So the lowest-cost plan is to buy privately or at a below-market dealer price, then sell privately in Madison in mid-July to mid-August to incoming students (小红书, WeChat groups, Facebook Marketplace), with CarMax, Carvana or KBB ICO quotes as a floor.\n\n(4) Best value retention in the $8-13k band:\n- GX 470 (a rust-free example; but about 15 mpg and 170k+ miles)\n- RAV4 AWD, Corolla, Camry, ES 350: these combine low depreciation with the easiest resale to students.\n\nLand Rover models are poor fits for a 10-month hold. Toyota and Lexus lead value-retention and longevity rankings (iSeeCars, Consumer Reports, J.D. Power), while Land Rover sits near the bottom. This is from recollection and was not re-verified here.\n\n(5) Market backdrop: wholesale values were stable in about the 200-209 Manheim band through 2024-2025, supported by a shortage of late-model used cars and 2025 tariffs. The base case is flat, +/-5%, through August 2027. Seasonality from an October buy to an August sell is about neutral to +2%. AWD SUVs would fetch more if sold in October-December rather than August."
+}
